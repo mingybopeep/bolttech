@@ -4,25 +4,25 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js",
+      "component": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js",
+      "componentPath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a44075706413059bf1677e5492f696e8",
+        "contentDigest": "9b3bfbdb49b6a818434eca3c5816fdd9",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "87e844187b142fe2fec9ad5bfc102529",
+        "contentDigest": "d6f297fd2687fb3ddb5cf622a2ee4420",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -86,13 +86,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "41e655e857a806d91f5a20dccdadfb20",
+        "contentDigest": "3854eb9527389913a865649856eb2791",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -105,7 +105,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -122,13 +122,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4735d13d73ebfa45f251552579e08906",
+        "contentDigest": "c9e4c895b4e22d930c41c1171d71f83d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -140,7 +140,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -157,13 +157,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "555933a1f3d78454b6cfa0bf8db58d9c",
+        "contentDigest": "4f4bcd43bf9c330ad92eb0a278bc6d94",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -173,7 +173,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -190,13 +190,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "939a8b424d9ad7e84c8bb9cbcee5735d",
+        "contentDigest": "d85049da19a190ab95a58051d9ce1e82",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -208,7 +208,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -225,13 +225,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bbc66e69f3f9a09c5eba406e5b2cb686",
+        "contentDigest": "96aad0c3e49f7243cba6bab2caaac9bd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "09fc0b26-fbd8-56ad-8522-90ec6d8ccfd4": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-material-ui",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-material-ui",
       "id": "09fc0b26-fbd8-56ad-8522-90ec6d8ccfd4",
       "name": "gatsby-plugin-material-ui",
       "version": "2.1.10",
@@ -251,7 +251,7 @@
         "onRenderBody",
         "wrapRootElement"
       ],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-material-ui",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-material-ui",
       "packageJson": {
         "name": "gatsby-plugin-material-ui",
         "description": "Gatsby plugin for Material-UI with built-in server-side rendering support",
@@ -320,13 +320,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c0108d4f5a43681c15518120036dd811",
+        "contentDigest": "0ddaf90391e5274c7d48d7381bd6b301",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-sass",
       "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
       "name": "gatsby-plugin-sass",
       "version": "2.3.12",
@@ -338,7 +338,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -350,10 +350,7 @@
           "sass",
           "scss"
         ],
-        "author": {
-          "name": "Daniel Farrell",
-          "email": "daniel@mobelux.com"
-        },
+        "author": "Daniel Farrell <daniel@mobelux.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -399,16 +396,24 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6d33d380e8044ba21b505e542400580f",
+        "contentDigest": "113e134656ecc9fc85f34234caff76bc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
+<<<<<<< HEAD
     "4fefb45a-1cd5-5ad0-8c87-a907c5692635": {
       "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-source-filesystem",
       "id": "4fefb45a-1cd5-5ad0-8c87-a907c5692635",
       "name": "gatsby-source-filesystem",
       "version": "2.3.24",
+=======
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "5e274df4abf96343322ffe88b5c8165e",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "pluginOptions": {
         "plugins": [],
         "name": "src",
@@ -420,7 +425,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
+<<<<<<< HEAD
       "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-source-filesystem",
+=======
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -667,11 +676,16 @@
       "parent": null,
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "06231c1592a79cda90079519a86554df",
+=======
+        "contentDigest": "9ec3b7a9b6fbf005c95739f818724739",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
+<<<<<<< HEAD
     "a88d97b6-cabc-5636-be7b-398bb7d4578a": {
       "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-transformer-remark",
       "id": "a88d97b6-cabc-5636-be7b-398bb7d4578a",
@@ -709,6 +723,17 @@
             "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-images"
           }
         ]
+=======
+    "fc4d9e7b-7e37-5afe-b910-00e7a7208e7b": {
+      "resolve": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-page-creator",
+      "id": "fc4d9e7b-7e37-5afe-b910-00e7a7208e7b",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages",
+        "pathCheck": false
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       },
       "nodeAPIs": [
         "onCreateNode",
@@ -716,7 +741,11 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
+<<<<<<< HEAD
       "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-transformer-remark",
+=======
+      "pluginFilepath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/node_modules/gatsby-plugin-page-creator",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -727,10 +756,7 @@
           "markdown",
           "remark"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -844,11 +870,16 @@
       "parent": null,
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "0aca26cb717bb3b5ce2ce4876724f4be",
+=======
+        "contentDigest": "a5f57b3e13e84479b983e76818a1a9cf",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
+<<<<<<< HEAD
     "493199f7-2f1a-50af-9752-1a1c73a6f247": {
       "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-relative-images",
       "id": "493199f7-2f1a-50af-9752-1a1c73a6f247",
@@ -1266,22 +1297,33 @@
         "owner": "internal-data-bridge"
       }
     },
+=======
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
     "Site": {
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
+<<<<<<< HEAD
       "buildTime": "2020-08-18T20:31:12.990Z",
+=======
+      "buildTime": "2020-08-18T18:24:24.618Z",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "64766529e247620bc17fc0b8b1800760",
+=======
+        "contentDigest": "8ebd81cfdec36643875db0da6a0d938b",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
+<<<<<<< HEAD
     "586de85e-4c5b-5d28-af27-5039e1acca69": {
       "id": "586de85e-4c5b-5d28-af27-5039e1acca69",
       "children": [],
@@ -3263,10 +3305,13 @@
         "owner": "internal-data-bridge"
       }
     },
+=======
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
+<<<<<<< HEAD
       "component": "/Users/harrymenen/Desktop/dipesh/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "isCreatedByStatefulCreatePages": true,
@@ -3274,13 +3319,27 @@
       "pluginCreator___NODE": "424a67d6-57e8-5f6e-aa81-8d20df307c1b",
       "pluginCreatorId": "424a67d6-57e8-5f6e-aa81-8d20df307c1b",
       "componentPath": "/Users/harrymenen/Desktop/dipesh/src/pages/index.js",
+=======
+      "component": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "fc4d9e7b-7e37-5afe-b910-00e7a7208e7b",
+      "pluginCreatorId": "fc4d9e7b-7e37-5afe-b910-00e7a7208e7b",
+      "componentPath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages/index.js",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
+<<<<<<< HEAD
         "contentDigest": "1c323e8159c2a096904920393b5a73ee",
         "description": "424a67d6-57e8-5f6e-aa81-8d20df307c1b",
+=======
+        "contentDigest": "f6b14b63890aee38d6eb289a29b7b675",
+        "description": "fc4d9e7b-7e37-5afe-b910-00e7a7208e7b",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
         "owner": "internal-data-bridge"
       }
     }
@@ -3316,6 +3375,7 @@
     "blog-blog-3-193": "793/path---blog-blog-3-193-56b-nT7ZUznzeCDsDkYCihJT6WPsmI4"
   },
   "components": {
+<<<<<<< HEAD
     "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js": {
       "componentPath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
       "query": "query usersHarrymenenDesktopDipeshSrcTemplatesBlogJs3530491270(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    frontmatter {\n      title\n      date\n    }\n    html\n  }\n}\n",
@@ -3329,14 +3389,25 @@
     "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js": {
       "componentPath": "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js",
       "query": "",
+=======
+    "/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/dev-404-page.js",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "pages": [
         "/dev-404-page/"
       ],
       "isInBootstrap": true
     },
+<<<<<<< HEAD
     "/Users/harrymenen/Desktop/dipesh/src/pages/index.js": {
       "componentPath": "/Users/harrymenen/Desktop/dipesh/src/pages/index.js",
       "query": "",
+=======
+    "/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages/index.js",
+>>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
       "pages": [
         "/"
       ],
