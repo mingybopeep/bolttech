@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Hero from '../components/hero/hero';
 import Calculator from '../components/calculator/calculator';
+import BlogComponent from '../components/blogcomponent/blogcomponent';
 
 import jigsawimg from '../assets/jigsawimg.png';
 import dollarimg from '../assets/dollarimg.png';
@@ -40,6 +41,7 @@ export default function IndexPage() {
            </div>
            <Calculator />
            <Highlights />
+           <BlogComponent />
         </Layout>
     )
 } 

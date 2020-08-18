@@ -19,6 +19,11 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby-remark-images": "^3.3.25",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-transformer-remark": "^2.3.8",
     "node-sass": "^4.14.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

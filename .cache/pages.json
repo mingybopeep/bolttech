@@ -5,6 +5,21 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-blog-1-f83",
+        "path": "/blog/blog1"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-blog-2-691",
+        "path": "/blog/blog2"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "blog-blog-3-193",
+        "path": "/blog/blog3"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"

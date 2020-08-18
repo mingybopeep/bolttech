@@ -1,0 +1,37 @@
+.BlogComponent{
+    padding: 10px;
+    overflow-x: scroll;
+     > div {
+         display: flex; 
+         width: 180vw;
+
+         div{
+             overflow: hidden;
+             flex: 1;
+             height: 110vw;
+             border-radius: 5px;
+             margin: 5px;
+             box-shadow: 5px 5px 15px grey;
+            padding-bottom: 20px;
+            position: relative;
+             img{
+                 width: 100%;
+                 object-fit: contain;
+                 background: #1CB0BA;
+             }
+
+             h3, p{
+                 padding: 10px;
+             }
+
+             .link{
+                 color: #1CB0BA;
+                 text-decoration: none;
+                 position: absolute;
+                bottom: 0; 
+                right: 0; 
+                padding: 10px;
+             }
+         }
+     }
+}

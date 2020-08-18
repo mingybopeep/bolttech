@@ -404,15 +404,681 @@
         "owner": "internal-data-bridge"
       }
     },
-    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/harrymenen/Desktop/dipesh",
-      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "name": "default-site-plugin",
-      "version": "5e274df4abf96343322ffe88b5c8165e",
+    "4fefb45a-1cd5-5ad0-8c87-a907c5692635": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-source-filesystem",
+      "id": "4fefb45a-1cd5-5ad0-8c87-a907c5692635",
+      "name": "gatsby-source-filesystem",
+      "version": "2.3.24",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/harrymenen/Desktop/dipesh/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.3.24",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.10"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.7.2"
+          },
+          {
+            "name": "chokidar",
+            "version": "3.4.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^12.4.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^8.1.0"
+          },
+          {
+            "name": "gatsby-core-utils",
+            "version": "^1.3.15"
+          },
+          {
+            "name": "got",
+            "version": "^9.6.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.2.3"
+          },
+          {
+            "name": "mime",
+            "version": "^2.4.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^5.3.0"
+          },
+          {
+            "name": "progress",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^4.11.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.5.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.2.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f6ed4de23d97c134c46b14402d53c2e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild",
+        "onCreateDevServer",
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.6.27",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "async",
+            "version": "^2.6.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.7.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^8.1.0"
+          },
+          {
+            "name": "gatsby-core-utils",
+            "version": "^1.3.15"
+          },
+          {
+            "name": "got",
+            "version": "^8.3.2"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.15"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.2.3"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "progress",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "semver",
+            "version": "^7.3.2"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.25.1"
+          },
+          {
+            "name": "svgo",
+            "version": "1.3.2"
+          },
+          {
+            "name": "uuid",
+            "version": "^3.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.5.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "06231c1592a79cda90079519a86554df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a88d97b6-cabc-5636-be7b-398bb7d4578a": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-transformer-remark",
+      "id": "a88d97b6-cabc-5636-be7b-398bb7d4578a",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-relative-images",
+            "id": "493199f7-2f1a-50af-9752-1a1c73a6f247",
+            "name": "gatsby-remark-relative-images",
+            "version": "0.3.0",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-relative-images"
+          },
+          {
+            "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-images",
+            "id": "3416cbc2-b345-5ab5-b56f-518aa5511e2e",
+            "name": "gatsby-remark-images",
+            "version": "3.3.25",
+            "pluginOptions": {
+              "plugins": [],
+              "linkImagesToOriginal": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [
+              "onRouteUpdate"
+            ],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0aca26cb717bb3b5ce2ce4876724f4be",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "493199f7-2f1a-50af-9752-1a1c73a6f247": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-relative-images",
+      "id": "493199f7-2f1a-50af-9752-1a1c73a6f247",
+      "name": "gatsby-remark-relative-images",
+      "version": "0.3.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-relative-images",
+      "packageJson": {
+        "name": "gatsby-remark-relative-images",
+        "description": "Convert image src(s) in markdown to be relative to their node's parent directory. This will help gatsby-remark-images match images outside the node folder. For example, use with NetlifyCMS.",
+        "version": "0.3.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "relative",
+          "netlifycms",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Daniel Mahon",
+          "email": "daniel@mahonstudios.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-polyfill",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.3"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.15"
+          },
+          {
+            "name": "slash",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.5.5"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.5.5"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.0.0-beta.44"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "33313282a18473418942c5734b3538bf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3416cbc2-b345-5ab5-b56f-518aa5511e2e": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-images",
+      "id": "3416cbc2-b345-5ab5-b56f-518aa5511e2e",
+      "name": "gatsby-remark-images",
+      "version": "3.3.25",
+      "pluginOptions": {
+        "plugins": [],
+        "linkImagesToOriginal": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "3.3.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "chalk",
+            "version": "^2.4.2"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.3"
+          },
+          {
+            "name": "gatsby-core-utils",
+            "version": "^1.3.15"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.15"
+          },
+          {
+            "name": "mdast-util-definitions",
+            "version": "^1.2.5"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "query-string",
+            "version": "^6.13.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.1.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.10.3"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.5.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.2.1"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^6.0.2"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cd69f22a4a0d3c0a5941a49c2041de38",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/harrymenen/Desktop/dipesh",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "02e180e97473cb488fa6a8004af683db",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/harrymenen/Desktop/dipesh",
@@ -447,6 +1113,26 @@
             "version": "^2.3.12"
           },
           {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.6.27"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^3.3.25"
+          },
+          {
+            "name": "gatsby-remark-relative-images",
+            "version": "^0.3.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.3.24"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
             "name": "node-sass",
             "version": "^4.14.1"
           },
@@ -472,7 +1158,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a500e002ecdc2ffbf445ca54778db4f0",
+        "contentDigest": "a9bee201be00b1d3ce94e5b5437d1ecb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -586,13 +1272,1994 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-08-18T15:42:07.256Z",
+      "buildTime": "2020-08-18T20:31:12.990Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c4afaa14554fa797881840f92332356e",
+        "contentDigest": "64766529e247620bc17fc0b8b1800760",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "586de85e-4c5b-5d28-af27-5039e1acca69": {
+      "id": "586de85e-4c5b-5d28-af27-5039e1acca69",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6a5ed8f11b398d0d4403c17d89e0d3a3",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2020-08-18T19:45:36.041Z",
+      "accessTime": "2020-08-18T19:45:36.062Z",
+      "changeTime": "2020-08-18T19:45:36.041Z",
+      "birthTime": "2020-08-18T12:24:02.681Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 9,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899085639,
+      "blocks": 0,
+      "atimeMs": 1597779936062.0017,
+      "mtimeMs": 1597779936040.6794,
+      "ctimeMs": 1597779936040.6794,
+      "birthtimeMs": 1597753442681.0664,
+      "atime": "2020-08-18T19:45:36.062Z",
+      "mtime": "2020-08-18T19:45:36.041Z",
+      "ctime": "2020-08-18T19:45:36.041Z",
+      "birthtime": "2020-08-18T12:24:02.681Z"
+    },
+    "8accb354-6bab-58d1-9cb8-4afcda64cac2": {
+      "id": "8accb354-6bab-58d1-9cb8-4afcda64cac2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0340a6b828a464d67f1f724f0ea36ec2",
+        "type": "Directory",
+        "description": "Directory \"src/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "relativePath": "assets",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2020-08-18T19:01:23.760Z",
+      "accessTime": "2020-08-18T19:01:23.828Z",
+      "changeTime": "2020-08-18T19:01:23.760Z",
+      "birthTime": "2020-08-18T12:37:39.692Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899133528,
+      "blocks": 0,
+      "atimeMs": 1597777283828.1538,
+      "mtimeMs": 1597777283760.0496,
+      "ctimeMs": 1597777283760.0496,
+      "birthtimeMs": 1597754259692.064,
+      "atime": "2020-08-18T19:01:23.828Z",
+      "mtime": "2020-08-18T19:01:23.760Z",
+      "ctime": "2020-08-18T19:01:23.760Z",
+      "birthtime": "2020-08-18T12:37:39.692Z"
+    },
+    "b7d1af95-9ba5-5c3e-9986-83db8a115bf2": {
+      "id": "b7d1af95-9ba5-5c3e-9986-83db8a115bf2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "834eb0e4b9927df3e61ff325ba649e54",
+        "type": "Directory",
+        "description": "Directory \"src/blogposts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts",
+      "relativePath": "blogposts",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2020-08-18T20:17:58.763Z",
+      "accessTime": "2020-08-18T20:17:58.808Z",
+      "changeTime": "2020-08-18T20:17:58.763Z",
+      "birthTime": "2020-08-18T18:21:05.350Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "blogposts",
+      "ext": "",
+      "name": "blogposts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899302171,
+      "blocks": 0,
+      "atimeMs": 1597781878808.057,
+      "mtimeMs": 1597781878762.9038,
+      "ctimeMs": 1597781878762.9038,
+      "birthtimeMs": 1597774865350.1228,
+      "atime": "2020-08-18T20:17:58.808Z",
+      "mtime": "2020-08-18T20:17:58.763Z",
+      "ctime": "2020-08-18T20:17:58.763Z",
+      "birthtime": "2020-08-18T18:21:05.350Z"
+    },
+    "be806fa2-f3f0-5555-abe1-85907b326052": {
+      "id": "be806fa2-f3f0-5555-abe1-85907b326052",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7a4c56e249b61cf51c70772c18500819",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2020-08-18T18:43:49.542Z",
+      "accessTime": "2020-08-18T18:43:49.643Z",
+      "changeTime": "2020-08-18T18:43:49.542Z",
+      "birthTime": "2020-08-18T12:26:07.713Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899124890,
+      "blocks": 0,
+      "atimeMs": 1597776229643.4626,
+      "mtimeMs": 1597776229541.529,
+      "ctimeMs": 1597776229541.529,
+      "birthtimeMs": 1597753567712.7866,
+      "atime": "2020-08-18T18:43:49.643Z",
+      "mtime": "2020-08-18T18:43:49.542Z",
+      "ctime": "2020-08-18T18:43:49.542Z",
+      "birthtime": "2020-08-18T12:26:07.713Z"
+    },
+    "f910f2fb-2140-59c6-b4fc-c8be230893f6": {
+      "id": "f910f2fb-2140-59c6-b4fc-c8be230893f6",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "57eed53b5797bbcb921a22ee6374a425",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T15:09:21.115Z",
+      "accessTime": "2020-08-18T15:09:21.232Z",
+      "changeTime": "2020-08-18T15:09:21.115Z",
+      "birthTime": "2020-08-18T12:24:02.682Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899085640,
+      "blocks": 0,
+      "atimeMs": 1597763361231.8025,
+      "mtimeMs": 1597763361115.2834,
+      "ctimeMs": 1597763361115.2834,
+      "birthtimeMs": 1597753442681.6074,
+      "atime": "2020-08-18T15:09:21.232Z",
+      "mtime": "2020-08-18T15:09:21.115Z",
+      "ctime": "2020-08-18T15:09:21.115Z",
+      "birthtime": "2020-08-18T12:24:02.682Z"
+    },
+    "c82dca43-f0fa-5a10-8c32-1e03c50275e9": {
+      "id": "c82dca43-f0fa-5a10-8c32-1e03c50275e9",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c5ac081fe619e29f47161f54b272a32c",
+        "type": "Directory",
+        "description": "Directory \"src/styles\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/styles",
+      "relativePath": "styles",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-08-18T13:03:27.904Z",
+      "accessTime": "2020-08-18T13:03:27.996Z",
+      "changeTime": "2020-08-18T13:03:27.904Z",
+      "birthTime": "2020-08-18T13:03:22.160Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "styles",
+      "ext": "",
+      "name": "styles",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899158347,
+      "blocks": 0,
+      "atimeMs": 1597755807996.2783,
+      "mtimeMs": 1597755807904.3462,
+      "ctimeMs": 1597755807904.3462,
+      "birthtimeMs": 1597755802159.6477,
+      "atime": "2020-08-18T13:03:27.996Z",
+      "mtime": "2020-08-18T13:03:27.904Z",
+      "ctime": "2020-08-18T13:03:27.904Z",
+      "birthtime": "2020-08-18T13:03:22.160Z"
+    },
+    "0157908e-16ae-5a03-b6ff-c506ae59eeb8": {
+      "id": "0157908e-16ae-5a03-b6ff-c506ae59eeb8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b48a319e1437f0928a8bf086eba387c8",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T20:11:14.264Z",
+      "accessTime": "2020-08-18T20:11:14.358Z",
+      "changeTime": "2020-08-18T20:11:14.264Z",
+      "birthTime": "2020-08-18T19:45:36.041Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899319936,
+      "blocks": 0,
+      "atimeMs": 1597781474358.2139,
+      "mtimeMs": 1597781474264.0186,
+      "ctimeMs": 1597781474264.0186,
+      "birthtimeMs": 1597779936040.6558,
+      "atime": "2020-08-18T20:11:14.358Z",
+      "mtime": "2020-08-18T20:11:14.264Z",
+      "ctime": "2020-08-18T20:11:14.264Z",
+      "birthtime": "2020-08-18T19:45:36.041Z"
+    },
+    "b22a5986-6a9d-5614-9528-aee287f117c9": {
+      "id": "b22a5986-6a9d-5614-9528-aee287f117c9",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aacc104b27e7f5159a37ec1b319f7fff",
+        "type": "Directory",
+        "description": "Directory \"src/components/blogcomponent\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent",
+      "relativePath": "components/blogcomponent",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T18:44:08.300Z",
+      "accessTime": "2020-08-18T18:44:08.318Z",
+      "changeTime": "2020-08-18T18:44:08.300Z",
+      "birthTime": "2020-08-18T18:43:49.542Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "blogcomponent",
+      "ext": "",
+      "name": "blogcomponent",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899315518,
+      "blocks": 0,
+      "atimeMs": 1597776248317.7317,
+      "mtimeMs": 1597776248300.3987,
+      "ctimeMs": 1597776248300.3987,
+      "birthtimeMs": 1597776229541.5115,
+      "atime": "2020-08-18T18:44:08.318Z",
+      "mtime": "2020-08-18T18:44:08.300Z",
+      "ctime": "2020-08-18T18:44:08.300Z",
+      "birthtime": "2020-08-18T18:43:49.542Z"
+    },
+    "2a2ff816-54ff-5f30-a492-acea8a861de9": {
+      "id": "2a2ff816-54ff-5f30-a492-acea8a861de9",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b9404571cc1ba699b9d2b1f10b0af01f",
+        "type": "Directory",
+        "description": "Directory \"src/components/calculator\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/calculator",
+      "relativePath": "components/calculator",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T15:52:19.409Z",
+      "accessTime": "2020-08-18T15:52:19.483Z",
+      "changeTime": "2020-08-18T15:52:19.409Z",
+      "birthTime": "2020-08-18T15:28:25.557Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "calculator",
+      "ext": "",
+      "name": "calculator",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899167272,
+      "blocks": 0,
+      "atimeMs": 1597765939482.6914,
+      "mtimeMs": 1597765939408.9712,
+      "ctimeMs": 1597765939408.9712,
+      "birthtimeMs": 1597764505556.8647,
+      "atime": "2020-08-18T15:52:19.483Z",
+      "mtime": "2020-08-18T15:52:19.409Z",
+      "ctime": "2020-08-18T15:52:19.409Z",
+      "birthtime": "2020-08-18T15:28:25.557Z"
+    },
+    "d07ab748-2b9d-5300-a22e-476fc87c98b2": {
+      "id": "d07ab748-2b9d-5300-a22e-476fc87c98b2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aa46270763c0974785f1efc948bebf14",
+        "type": "Directory",
+        "description": "Directory \"src/components/hero\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/hero",
+      "relativePath": "components/hero",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T13:27:15.964Z",
+      "accessTime": "2020-08-18T13:27:16.041Z",
+      "changeTime": "2020-08-18T13:27:15.964Z",
+      "birthTime": "2020-08-18T13:19:07.472Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "hero",
+      "ext": "",
+      "name": "hero",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899159555,
+      "blocks": 0,
+      "atimeMs": 1597757236040.5034,
+      "mtimeMs": 1597757235963.587,
+      "ctimeMs": 1597757235963.587,
+      "birthtimeMs": 1597756747471.9202,
+      "atime": "2020-08-18T13:27:16.041Z",
+      "mtime": "2020-08-18T13:27:15.964Z",
+      "ctime": "2020-08-18T13:27:15.964Z",
+      "birthtime": "2020-08-18T13:19:07.472Z"
+    },
+    "a5626d03-7233-58cc-b3f3-d9a9611578cb": {
+      "id": "a5626d03-7233-58cc-b3f3-d9a9611578cb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9924e84835cf50a9a692ae3cb7bca886",
+        "type": "Directory",
+        "description": "Directory \"src/components/highlights\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/highlights",
+      "relativePath": "components/highlights",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2020-08-18T16:33:03.058Z",
+      "accessTime": "2020-08-18T16:33:03.099Z",
+      "changeTime": "2020-08-18T16:33:03.058Z",
+      "birthTime": "2020-08-18T16:32:43.043Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "highlights",
+      "ext": "",
+      "name": "highlights",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899171108,
+      "blocks": 0,
+      "atimeMs": 1597768383099.4177,
+      "mtimeMs": 1597768383058.2595,
+      "ctimeMs": 1597768383058.2595,
+      "birthtimeMs": 1597768363043.3477,
+      "atime": "2020-08-18T16:33:03.099Z",
+      "mtime": "2020-08-18T16:33:03.058Z",
+      "ctime": "2020-08-18T16:33:03.058Z",
+      "birthtime": "2020-08-18T16:32:43.043Z"
+    },
+    "594e4f61-879c-56c3-b62a-87b444955644": {
+      "id": "594e4f61-879c-56c3-b62a-87b444955644",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fdfa766d29552495ae234ba5bb8269ca",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "relativePath": "templates/blog.js",
+      "extension": "js",
+      "size": 836,
+      "prettySize": "836 B",
+      "modifiedTime": "2020-08-18T20:15:39.278Z",
+      "accessTime": "2020-08-18T20:15:39.488Z",
+      "changeTime": "2020-08-18T20:15:39.278Z",
+      "birthTime": "2020-08-18T19:45:54.634Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/templates",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "templates",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899319963,
+      "blocks": 8,
+      "atimeMs": 1597781739488.0625,
+      "mtimeMs": 1597781739277.7454,
+      "ctimeMs": 1597781739277.7454,
+      "birthtimeMs": 1597779954634.1282,
+      "atime": "2020-08-18T20:15:39.488Z",
+      "mtime": "2020-08-18T20:15:39.278Z",
+      "ctime": "2020-08-18T20:15:39.278Z",
+      "birthtime": "2020-08-18T19:45:54.634Z"
+    },
+    "09322fa8-a283-5276-85b1-e5a4d0189667": {
+      "id": "09322fa8-a283-5276-85b1-e5a4d0189667",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d8811347b6bcd77715577bf234a20e41",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/styles/index.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/styles/index.scss",
+      "relativePath": "styles/index.scss",
+      "extension": "scss",
+      "size": 223,
+      "prettySize": "223 B",
+      "modifiedTime": "2020-08-18T13:30:40.335Z",
+      "accessTime": "2020-08-18T17:44:53.867Z",
+      "changeTime": "2020-08-18T13:30:40.335Z",
+      "birthTime": "2020-08-18T13:03:27.904Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/styles",
+      "base": "index.scss",
+      "ext": ".scss",
+      "name": "index",
+      "relativeDirectory": "styles",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899158349,
+      "blocks": 8,
+      "atimeMs": 1597772693866.6765,
+      "mtimeMs": 1597757440335.4663,
+      "ctimeMs": 1597757440335.4663,
+      "birthtimeMs": 1597755807904.3335,
+      "atime": "2020-08-18T17:44:53.867Z",
+      "mtime": "2020-08-18T13:30:40.335Z",
+      "ctime": "2020-08-18T13:30:40.335Z",
+      "birthtime": "2020-08-18T13:03:27.904Z"
+    },
+    "f40342e2-de4c-58ba-86dc-189ad0cd77df": {
+      "id": "f40342e2-de4c-58ba-86dc-189ad0cd77df",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d28aadf95ba12e15d649789cdfb07ad0",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 2112,
+      "prettySize": "2.11 kB",
+      "modifiedTime": "2020-08-18T18:47:46.022Z",
+      "accessTime": "2020-08-18T18:47:47.515Z",
+      "changeTime": "2020-08-18T18:47:46.022Z",
+      "birthTime": "2020-08-18T12:24:02.685Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899085644,
+      "blocks": 8,
+      "atimeMs": 1597776467515.3452,
+      "mtimeMs": 1597776466021.893,
+      "ctimeMs": 1597776466021.893,
+      "birthtimeMs": 1597753442684.502,
+      "atime": "2020-08-18T18:47:47.515Z",
+      "mtime": "2020-08-18T18:47:46.022Z",
+      "ctime": "2020-08-18T18:47:46.022Z",
+      "birthtime": "2020-08-18T12:24:02.685Z"
+    },
+    "5bb02740-3677-5d6b-b438-591ac4cf65e0": {
+      "id": "5bb02740-3677-5d6b-b438-591ac4cf65e0",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6cabb48744df801ee08a12c71408601d",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/header.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/header.js",
+      "relativePath": "components/header.js",
+      "extension": "js",
+      "size": 307,
+      "prettySize": "307 B",
+      "modifiedTime": "2020-08-18T13:19:38.991Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T13:19:38.991Z",
+      "birthTime": "2020-08-18T12:26:18.174Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "header.js",
+      "ext": ".js",
+      "name": "header",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899124896,
+      "blocks": 8,
+      "atimeMs": 1597772693866.1611,
+      "mtimeMs": 1597756778990.6362,
+      "ctimeMs": 1597756778990.6362,
+      "birthtimeMs": 1597753578174.0735,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T13:19:38.991Z",
+      "ctime": "2020-08-18T13:19:38.991Z",
+      "birthtime": "2020-08-18T12:26:18.174Z"
+    },
+    "1ef3bc59-0e5a-511b-8d58-4b82654b84c3": {
+      "id": "1ef3bc59-0e5a-511b-8d58-4b82654b84c3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9cc85fb8d0bee4f7ba07e9bf93802fad",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/templates/blog.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.module.scss",
+      "relativePath": "templates/blog.module.scss",
+      "extension": "scss",
+      "size": 237,
+      "prettySize": "237 B",
+      "modifiedTime": "2020-08-18T20:14:02.512Z",
+      "accessTime": "2020-08-18T20:14:31.705Z",
+      "changeTime": "2020-08-18T20:14:02.512Z",
+      "birthTime": "2020-08-18T20:11:07.278Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/templates",
+      "base": "blog.module.scss",
+      "ext": ".scss",
+      "name": "blog.module",
+      "relativeDirectory": "templates",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899321685,
+      "blocks": 8,
+      "atimeMs": 1597781671704.9807,
+      "mtimeMs": 1597781642511.6162,
+      "ctimeMs": 1597781642511.6162,
+      "birthtimeMs": 1597781467278.1982,
+      "atime": "2020-08-18T20:14:31.705Z",
+      "mtime": "2020-08-18T20:14:02.512Z",
+      "ctime": "2020-08-18T20:14:02.512Z",
+      "birthtime": "2020-08-18T20:11:07.278Z"
+    },
+    "4366a939-4f82-5f9d-b946-d193815aa71e": {
+      "id": "4366a939-4f82-5f9d-b946-d193815aa71e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5149ff21c892ba193108598992567491",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/footer.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/footer.js",
+      "relativePath": "components/footer.js",
+      "extension": "js",
+      "size": 155,
+      "prettySize": "155 B",
+      "modifiedTime": "2020-08-18T12:45:23.596Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T12:45:23.596Z",
+      "birthTime": "2020-08-18T12:27:21.890Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "footer.js",
+      "ext": ".js",
+      "name": "footer",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899124964,
+      "blocks": 8,
+      "atimeMs": 1597772693866.117,
+      "mtimeMs": 1597754723596.0305,
+      "ctimeMs": 1597754723596.0305,
+      "birthtimeMs": 1597753641889.7954,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T12:45:23.596Z",
+      "ctime": "2020-08-18T12:45:23.596Z",
+      "birthtime": "2020-08-18T12:27:21.890Z"
+    },
+    "1e577416-64fb-58f0-a7e6-ef5067c1376e": {
+      "id": "1e577416-64fb-58f0-a7e6-ef5067c1376e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d31a5d9763a4edfdfd3087452a7a0a3",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/pages/index.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/pages/index.module.scss",
+      "relativePath": "pages/index.module.scss",
+      "extension": "scss",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2020-08-18T17:18:19.939Z",
+      "accessTime": "2020-08-18T17:44:53.867Z",
+      "changeTime": "2020-08-18T17:18:19.939Z",
+      "birthTime": "2020-08-18T15:09:21.115Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/pages",
+      "base": "index.module.scss",
+      "ext": ".scss",
+      "name": "index.module",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899165845,
+      "blocks": 8,
+      "atimeMs": 1597772693866.6206,
+      "mtimeMs": 1597771099939.2993,
+      "ctimeMs": 1597771099939.2993,
+      "birthtimeMs": 1597763361115.261,
+      "atime": "2020-08-18T17:44:53.867Z",
+      "mtime": "2020-08-18T17:18:19.939Z",
+      "ctime": "2020-08-18T17:18:19.939Z",
+      "birthtime": "2020-08-18T15:09:21.115Z"
+    },
+    "e07e2938-70f8-580b-9acb-497e3624d1e2": {
+      "id": "e07e2938-70f8-580b-9acb-497e3624d1e2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2dbec07f702f1dcec3dd1cb520d311cc",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 261,
+      "prettySize": "261 B",
+      "modifiedTime": "2020-08-18T13:06:15.936Z",
+      "accessTime": "2020-08-18T17:44:53.867Z",
+      "changeTime": "2020-08-18T13:06:15.936Z",
+      "birthTime": "2020-08-18T12:27:18.089Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899124960,
+      "blocks": 8,
+      "atimeMs": 1597772693866.515,
+      "mtimeMs": 1597755975936.293,
+      "ctimeMs": 1597755975936.293,
+      "birthtimeMs": 1597753638088.8281,
+      "atime": "2020-08-18T17:44:53.867Z",
+      "mtime": "2020-08-18T13:06:15.936Z",
+      "ctime": "2020-08-18T13:06:15.936Z",
+      "birthtime": "2020-08-18T12:27:18.089Z"
+    },
+    "f85e220e-7817-510e-9879-3e8a9ffc7362": {
+      "id": "f85e220e-7817-510e-9879-3e8a9ffc7362",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9125390ba020fb2176e75d3daacd6702",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/components/highlights/highlights.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/highlights/highlights.module.scss",
+      "relativePath": "components/highlights/highlights.module.scss",
+      "extension": "scss",
+      "size": 1087,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2020-08-18T18:55:25.434Z",
+      "accessTime": "2020-08-18T18:55:26.165Z",
+      "changeTime": "2020-08-18T18:55:25.434Z",
+      "birthTime": "2020-08-18T16:33:03.058Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/highlights",
+      "base": "highlights.module.scss",
+      "ext": ".scss",
+      "name": "highlights.module",
+      "relativeDirectory": "components/highlights",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899171116,
+      "blocks": 8,
+      "atimeMs": 1597776926164.5312,
+      "mtimeMs": 1597776925434.176,
+      "ctimeMs": 1597776925434.176,
+      "birthtimeMs": 1597768383058.2227,
+      "atime": "2020-08-18T18:55:26.165Z",
+      "mtime": "2020-08-18T18:55:25.434Z",
+      "ctime": "2020-08-18T18:55:25.434Z",
+      "birthtime": "2020-08-18T16:33:03.058Z"
+    },
+    "e2d3f9ee-ea00-5ef3-b106-dc49b335298b": {
+      "id": "e2d3f9ee-ea00-5ef3-b106-dc49b335298b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "97cf85a80bc5c2f3ed3418ea89152f86",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/components/header.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/header.module.scss",
+      "relativePath": "components/header.module.scss",
+      "extension": "scss",
+      "size": 339,
+      "prettySize": "339 B",
+      "modifiedTime": "2020-08-18T16:00:38.298Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T16:00:38.298Z",
+      "birthTime": "2020-08-18T12:50:36.495Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components",
+      "base": "header.module.scss",
+      "ext": ".scss",
+      "name": "header.module",
+      "relativeDirectory": "components",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899153936,
+      "blocks": 8,
+      "atimeMs": 1597772693866.2063,
+      "mtimeMs": 1597766438297.569,
+      "ctimeMs": 1597766438297.569,
+      "birthtimeMs": 1597755036494.9065,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T16:00:38.298Z",
+      "ctime": "2020-08-18T16:00:38.298Z",
+      "birthtime": "2020-08-18T12:50:36.495Z"
+    },
+    "5a13fee3-4904-5824-af77-b110961e141a": {
+      "id": "5a13fee3-4904-5824-af77-b110961e141a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3ffeb6297890d8f06de3ef74d5a1a1f4",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/highlights/highlights.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/highlights/highlights.js",
+      "relativePath": "components/highlights/highlights.js",
+      "extension": "js",
+      "size": 2168,
+      "prettySize": "2.17 kB",
+      "modifiedTime": "2020-08-18T17:09:31.849Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T17:09:31.849Z",
+      "birthTime": "2020-08-18T16:32:52.566Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/highlights",
+      "base": "highlights.js",
+      "ext": ".js",
+      "name": "highlights",
+      "relativeDirectory": "components/highlights",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899171111,
+      "blocks": 8,
+      "atimeMs": 1597772693866.408,
+      "mtimeMs": 1597770571848.6257,
+      "ctimeMs": 1597770571848.6257,
+      "birthtimeMs": 1597768372566.3516,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T17:09:31.849Z",
+      "ctime": "2020-08-18T17:09:31.849Z",
+      "birthtime": "2020-08-18T16:32:52.566Z"
+    },
+    "991adacb-0a9b-53b7-adca-4f398f0d8a5d": {
+      "id": "991adacb-0a9b-53b7-adca-4f398f0d8a5d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "27fc0eb894248bbe4aa25b2eac048514",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/components/hero/hero.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/hero/hero.module.scss",
+      "relativePath": "components/hero/hero.module.scss",
+      "extension": "scss",
+      "size": 4520,
+      "prettySize": "4.52 kB",
+      "modifiedTime": "2020-08-18T15:22:06.106Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T15:22:06.106Z",
+      "birthTime": "2020-08-18T13:19:21.617Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/hero",
+      "base": "hero.module.scss",
+      "ext": ".scss",
+      "name": "hero.module",
+      "relativeDirectory": "components/hero",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899159562,
+      "blocks": 16,
+      "atimeMs": 1597772693866.3237,
+      "mtimeMs": 1597764126106.153,
+      "ctimeMs": 1597764126106.153,
+      "birthtimeMs": 1597756761616.6497,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T15:22:06.106Z",
+      "ctime": "2020-08-18T15:22:06.106Z",
+      "birthtime": "2020-08-18T13:19:21.617Z"
+    },
+    "ef16baf8-eea4-5626-b395-3d38226fbf94": {
+      "id": "ef16baf8-eea4-5626-b395-3d38226fbf94",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "67861c392730760bf9f18e799c7dbb23",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/hero/hero.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/hero/hero.js",
+      "relativePath": "components/hero/hero.js",
+      "extension": "js",
+      "size": 3349,
+      "prettySize": "3.35 kB",
+      "modifiedTime": "2020-08-18T14:59:40.947Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T14:59:40.947Z",
+      "birthTime": "2020-08-18T13:19:12.193Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/hero",
+      "base": "hero.js",
+      "ext": ".js",
+      "name": "hero",
+      "relativeDirectory": "components/hero",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899159557,
+      "blocks": 8,
+      "atimeMs": 1597772693866.264,
+      "mtimeMs": 1597762780947.3496,
+      "ctimeMs": 1597762780947.3496,
+      "birthtimeMs": 1597756752192.8086,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T14:59:40.947Z",
+      "ctime": "2020-08-18T14:59:40.947Z",
+      "birthtime": "2020-08-18T13:19:12.193Z"
+    },
+    "2dc2b78d-b706-5f67-b175-f8a3df959b19": {
+      "id": "2dc2b78d-b706-5f67-b175-f8a3df959b19",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fe928e6baa0ce08c6605050b2cb0ee68",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/blogcomponent/blogcomponent.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent/blogcomponent.js",
+      "relativePath": "components/blogcomponent/blogcomponent.js",
+      "extension": "js",
+      "size": 1818,
+      "prettySize": "1.82 kB",
+      "modifiedTime": "2020-08-18T19:58:14.694Z",
+      "accessTime": "2020-08-18T19:58:16.194Z",
+      "changeTime": "2020-08-18T19:58:14.694Z",
+      "birthTime": "2020-08-18T18:43:55.858Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent",
+      "base": "blogcomponent.js",
+      "ext": ".js",
+      "name": "blogcomponent",
+      "relativeDirectory": "components/blogcomponent",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899315520,
+      "blocks": 8,
+      "atimeMs": 1597780696194.09,
+      "mtimeMs": 1597780694693.8486,
+      "ctimeMs": 1597780694693.8486,
+      "birthtimeMs": 1597776235857.9988,
+      "atime": "2020-08-18T19:58:16.194Z",
+      "mtime": "2020-08-18T19:58:14.694Z",
+      "ctime": "2020-08-18T19:58:14.694Z",
+      "birthtime": "2020-08-18T18:43:55.858Z"
+    },
+    "595d1574-b01a-5f99-b584-2fe822b783e4": {
+      "id": "595d1574-b01a-5f99-b584-2fe822b783e4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "60a6b85430cabea6a2a7eea53ad8f34e",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/calculator/calculator.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/calculator/calculator.js",
+      "relativePath": "components/calculator/calculator.js",
+      "extension": "js",
+      "size": 1695,
+      "prettySize": "1.7 kB",
+      "modifiedTime": "2020-08-18T17:26:14.647Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T17:26:14.647Z",
+      "birthTime": "2020-08-18T15:28:30.889Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/calculator",
+      "base": "calculator.js",
+      "ext": ".js",
+      "name": "calculator",
+      "relativeDirectory": "components/calculator",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899167277,
+      "blocks": 8,
+      "atimeMs": 1597772693865.9849,
+      "mtimeMs": 1597771574646.9993,
+      "ctimeMs": 1597771574646.9993,
+      "birthtimeMs": 1597764510888.5225,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T17:26:14.647Z",
+      "ctime": "2020-08-18T17:26:14.647Z",
+      "birthtime": "2020-08-18T15:28:30.889Z"
+    },
+    "aa36bcb3-36e1-5965-824b-19de16325c6b": {
+      "id": "aa36bcb3-36e1-5965-824b-19de16325c6b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "579ff49162231f57b3307916ef45aeff",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/components/calculator/calculator.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/calculator/calculator.module.scss",
+      "relativePath": "components/calculator/calculator.module.scss",
+      "extension": "scss",
+      "size": 2202,
+      "prettySize": "2.2 kB",
+      "modifiedTime": "2020-08-18T17:39:51.142Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T17:39:51.142Z",
+      "birthTime": "2020-08-18T15:28:39.455Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/calculator",
+      "base": "calculator.module.scss",
+      "ext": ".scss",
+      "name": "calculator.module",
+      "relativeDirectory": "components/calculator",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899167282,
+      "blocks": 8,
+      "atimeMs": 1597772693866.0554,
+      "mtimeMs": 1597772391142.1685,
+      "ctimeMs": 1597772391142.1685,
+      "birthtimeMs": 1597764519455.1958,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T17:39:51.142Z",
+      "ctime": "2020-08-18T17:39:51.142Z",
+      "birthtime": "2020-08-18T15:28:39.455Z"
+    },
+    "a344376a-e10c-5421-9560-a7255f1a2e08": {
+      "id": "a344376a-e10c-5421-9560-a7255f1a2e08",
+      "children": [
+        "44e8b6b6-ab23-5129-9167-a07a5b7e24fd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "19fc4fec6c8be7c566028ed2c785903f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blogposts/blog1.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog1.md",
+      "relativePath": "blogposts/blog1.md",
+      "extension": "md",
+      "size": 520,
+      "prettySize": "520 B",
+      "modifiedTime": "2020-08-18T20:18:47.635Z",
+      "accessTime": "2020-08-18T20:18:49.957Z",
+      "changeTime": "2020-08-18T20:18:47.635Z",
+      "birthTime": "2020-08-18T18:21:13.299Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/blogposts",
+      "base": "blog1.md",
+      "ext": ".md",
+      "name": "blog1",
+      "relativeDirectory": "blogposts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899302173,
+      "blocks": 8,
+      "atimeMs": 1597781929957.1267,
+      "mtimeMs": 1597781927634.7603,
+      "ctimeMs": 1597781927634.7603,
+      "birthtimeMs": 1597774873298.9397,
+      "atime": "2020-08-18T20:18:49.957Z",
+      "mtime": "2020-08-18T20:18:47.635Z",
+      "ctime": "2020-08-18T20:18:47.635Z",
+      "birthtime": "2020-08-18T18:21:13.299Z"
+    },
+    "23b880ba-11b6-54a3-bd5e-79319f51509f": {
+      "id": "23b880ba-11b6-54a3-bd5e-79319f51509f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1f3573ab3d61931ecc84e55ed1cba4c5",
+        "type": "File",
+        "mediaType": "text/x-scss",
+        "description": "File \"src/components/blogcomponent/blogcomponent.module.scss\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent/blogcomponent.module.scss",
+      "relativePath": "components/blogcomponent/blogcomponent.module.scss",
+      "extension": "scss",
+      "size": 843,
+      "prettySize": "843 B",
+      "modifiedTime": "2020-08-18T19:30:22.548Z",
+      "accessTime": "2020-08-18T19:31:01.845Z",
+      "changeTime": "2020-08-18T19:30:22.548Z",
+      "birthTime": "2020-08-18T18:44:08.300Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent",
+      "base": "blogcomponent.module.scss",
+      "ext": ".scss",
+      "name": "blogcomponent.module",
+      "relativeDirectory": "components/blogcomponent",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899315524,
+      "blocks": 8,
+      "atimeMs": 1597779061844.9175,
+      "mtimeMs": 1597779022547.571,
+      "ctimeMs": 1597779022547.571,
+      "birthtimeMs": 1597776248300.381,
+      "atime": "2020-08-18T19:31:01.845Z",
+      "mtime": "2020-08-18T19:30:22.548Z",
+      "ctime": "2020-08-18T19:30:22.548Z",
+      "birthtime": "2020-08-18T18:44:08.300Z"
+    },
+    "cc377312-2814-588b-9407-a27deb4f37b5": {
+      "id": "cc377312-2814-588b-9407-a27deb4f37b5",
+      "children": [
+        "9859c07d-3d8a-5a53-b5d7-7f2178a08d71"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3535f5ab8e4268df4270cf23c32d2bde",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blogposts/blog2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog2.md",
+      "relativePath": "blogposts/blog2.md",
+      "extension": "md",
+      "size": 526,
+      "prettySize": "526 B",
+      "modifiedTime": "2020-08-18T19:02:50.524Z",
+      "accessTime": "2020-08-18T19:02:52.104Z",
+      "changeTime": "2020-08-18T19:02:50.524Z",
+      "birthTime": "2020-08-18T18:57:26.992Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/blogposts",
+      "base": "blog2.md",
+      "ext": ".md",
+      "name": "blog2",
+      "relativeDirectory": "blogposts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899316219,
+      "blocks": 8,
+      "atimeMs": 1597777372104.0415,
+      "mtimeMs": 1597777370523.6086,
+      "ctimeMs": 1597777370523.6086,
+      "birthtimeMs": 1597777046991.6858,
+      "atime": "2020-08-18T19:02:52.104Z",
+      "mtime": "2020-08-18T19:02:50.524Z",
+      "ctime": "2020-08-18T19:02:50.524Z",
+      "birthtime": "2020-08-18T18:57:26.992Z"
+    },
+    "1d9f18fd-e9b2-526a-9777-91eca22a7fb0": {
+      "id": "1d9f18fd-e9b2-526a-9777-91eca22a7fb0",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a306bbde1b0877d91f369d3ec7359978",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/dollarimg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/dollarimg.png",
+      "relativePath": "assets/dollarimg.png",
+      "extension": "png",
+      "size": 4085,
+      "prettySize": "4.08 kB",
+      "modifiedTime": "2020-08-18T15:13:22.913Z",
+      "accessTime": "2020-08-18T17:44:53.865Z",
+      "changeTime": "2020-08-18T15:13:25.741Z",
+      "birthTime": "2020-08-18T15:13:22.913Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "dollarimg.png",
+      "ext": ".png",
+      "name": "dollarimg",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899166054,
+      "blocks": 8,
+      "atimeMs": 1597772693864.985,
+      "mtimeMs": 1597763602913.2957,
+      "ctimeMs": 1597763605740.7737,
+      "birthtimeMs": 1597763602912.972,
+      "atime": "2020-08-18T17:44:53.865Z",
+      "mtime": "2020-08-18T15:13:22.913Z",
+      "ctime": "2020-08-18T15:13:25.741Z",
+      "birthtime": "2020-08-18T15:13:22.913Z"
+    },
+    "b9395ec7-e4a3-5ca5-a7ff-c68e8170e1eb": {
+      "id": "b9395ec7-e4a3-5ca5-a7ff-c68e8170e1eb",
+      "children": [
+        "63fd3979-71fa-5d47-9a9c-6cb1bb9e1e63"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2a0e7255eb3a4cc00106c8839a936c89",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/blogposts/blog3.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog3.md",
+      "relativePath": "blogposts/blog3.md",
+      "extension": "md",
+      "size": 506,
+      "prettySize": "506 B",
+      "modifiedTime": "2020-08-18T19:02:43.724Z",
+      "accessTime": "2020-08-18T19:02:45.215Z",
+      "changeTime": "2020-08-18T19:02:43.724Z",
+      "birthTime": "2020-08-18T18:57:31.103Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/blogposts",
+      "base": "blog3.md",
+      "ext": ".md",
+      "name": "blog3",
+      "relativeDirectory": "blogposts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899316220,
+      "blocks": 8,
+      "atimeMs": 1597777365214.777,
+      "mtimeMs": 1597777363724.3228,
+      "ctimeMs": 1597777363724.3228,
+      "birthtimeMs": 1597777051102.5657,
+      "atime": "2020-08-18T19:02:45.215Z",
+      "mtime": "2020-08-18T19:02:43.724Z",
+      "ctime": "2020-08-18T19:02:43.724Z",
+      "birthtime": "2020-08-18T18:57:31.103Z"
+    },
+    "1e4cc77a-cdde-5639-bfd9-bcf6ac7f4c59": {
+      "id": "1e4cc77a-cdde-5639-bfd9-bcf6ac7f4c59",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b94104a6c8986ca8a6b668d33f477426",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/heartimg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/heartimg.png",
+      "relativePath": "assets/heartimg.png",
+      "extension": "png",
+      "size": 2988,
+      "prettySize": "2.99 kB",
+      "modifiedTime": "2020-08-18T15:13:16.404Z",
+      "accessTime": "2020-08-18T17:44:53.865Z",
+      "changeTime": "2020-08-18T15:13:19.861Z",
+      "birthTime": "2020-08-18T15:13:16.403Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "heartimg.png",
+      "ext": ".png",
+      "name": "heartimg",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899166040,
+      "blocks": 8,
+      "atimeMs": 1597772693865.0234,
+      "mtimeMs": 1597763596404.3284,
+      "ctimeMs": 1597763599861.1284,
+      "birthtimeMs": 1597763596403.1165,
+      "atime": "2020-08-18T17:44:53.865Z",
+      "mtime": "2020-08-18T15:13:16.404Z",
+      "ctime": "2020-08-18T15:13:19.861Z",
+      "birthtime": "2020-08-18T15:13:16.403Z"
+    },
+    "721137f9-3728-57fd-b124-d710d3537b95": {
+      "id": "721137f9-3728-57fd-b124-d710d3537b95",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7d554a6914833d7ba0dd1874e57006d4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/jigsawimg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/jigsawimg.png",
+      "relativePath": "assets/jigsawimg.png",
+      "extension": "png",
+      "size": 10787,
+      "prettySize": "10.8 kB",
+      "modifiedTime": "2020-08-18T15:13:07.488Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T15:13:11.691Z",
+      "birthTime": "2020-08-18T15:13:07.487Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "jigsawimg.png",
+      "ext": ".png",
+      "name": "jigsawimg",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899166021,
+      "blocks": 24,
+      "atimeMs": 1597772693865.6868,
+      "mtimeMs": 1597763587487.8328,
+      "ctimeMs": 1597763591690.6995,
+      "birthtimeMs": 1597763587487.4192,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T15:13:07.488Z",
+      "ctime": "2020-08-18T15:13:11.691Z",
+      "birthtime": "2020-08-18T15:13:07.487Z"
+    },
+    "c6eee829-58bb-5073-a692-9a8dea9d1bdd": {
+      "id": "c6eee829-58bb-5073-a692-9a8dea9d1bdd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "69bda219295e3088a1c7101f823c12e2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/logo.png",
+      "relativePath": "assets/logo.png",
+      "extension": "png",
+      "size": 4115,
+      "prettySize": "4.12 kB",
+      "modifiedTime": "2020-08-18T13:10:49.940Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T13:10:49.941Z",
+      "birthTime": "2020-08-18T13:10:16.812Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "logo.png",
+      "ext": ".png",
+      "name": "logo",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899159029,
+      "blocks": 16,
+      "atimeMs": 1597772693865.8506,
+      "mtimeMs": 1597756249940,
+      "ctimeMs": 1597756249941.008,
+      "birthtimeMs": 1597756216812.2449,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T13:10:49.940Z",
+      "ctime": "2020-08-18T13:10:49.941Z",
+      "birthtime": "2020-08-18T13:10:16.812Z"
+    },
+    "87944d24-e50b-5b71-8d4c-9c9dd81a7d0c": {
+      "id": "87944d24-e50b-5b71-8d4c-9c9dd81a7d0c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8e2720a722162ae1cbbab9309715fb64",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/mouse.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/mouse.png",
+      "relativePath": "assets/mouse.png",
+      "extension": "png",
+      "size": 33183,
+      "prettySize": "33.2 kB",
+      "modifiedTime": "2020-08-18T14:08:53.829Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T14:09:01.501Z",
+      "birthTime": "2020-08-18T14:08:53.829Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "mouse.png",
+      "ext": ".png",
+      "name": "mouse",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899162530,
+      "blocks": 72,
+      "atimeMs": 1597772693865.886,
+      "mtimeMs": 1597759733829.345,
+      "ctimeMs": 1597759741501.1655,
+      "birthtimeMs": 1597759733828.68,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T14:08:53.829Z",
+      "ctime": "2020-08-18T14:09:01.501Z",
+      "birthtime": "2020-08-18T14:08:53.829Z"
+    },
+    "a94f2772-7109-5b55-8349-ef47d483bf4d": {
+      "id": "a94f2772-7109-5b55-8349-ef47d483bf4d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c429c552b1bddd07afed2f0fbf3a43e7",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/screenshot.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/screenshot.png",
+      "relativePath": "assets/screenshot.png",
+      "extension": "png",
+      "size": 186995,
+      "prettySize": "187 kB",
+      "modifiedTime": "2020-08-18T16:47:08.860Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T16:47:08.860Z",
+      "birthTime": "2020-08-18T16:46:36.616Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "screenshot.png",
+      "ext": ".png",
+      "name": "screenshot",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899171716,
+      "blocks": 368,
+      "atimeMs": 1597772693865.9214,
+      "mtimeMs": 1597769228860,
+      "ctimeMs": 1597769228860.3403,
+      "birthtimeMs": 1597769196615.9255,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T16:47:08.860Z",
+      "ctime": "2020-08-18T16:47:08.860Z",
+      "birthtime": "2020-08-18T16:46:36.616Z"
+    },
+    "44e8b6b6-ab23-5129-9167-a07a5b7e24fd": {
+      "id": "44e8b6b6-ab23-5129-9167-a07a5b7e24fd",
+      "children": [],
+      "parent": "a344376a-e10c-5421-9560-a7255f1a2e08",
+      "internal": {
+        "content": "\n![man](./blog-image.jpeg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a953a82f848e86703e295e537f7ba1e4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Blog post",
+        "date": "2020-01-01"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![man](./blog-image.jpeg)\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+      "fileAbsolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog1.md",
+      "fields": {
+        "slug": "blog1"
+      }
+    },
+    "9859c07d-3d8a-5a53-b5d7-7f2178a08d71": {
+      "id": "9859c07d-3d8a-5a53-b5d7-7f2178a08d71",
+      "children": [],
+      "parent": "cc377312-2814-588b-9407-a27deb4f37b5",
+      "internal": {
+        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "07a1a6114a9c44b669f435984b396a4e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The emerging trends of extended warranties",
+        "date": "2020-01-01"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+      "fileAbsolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog2.md",
+      "fields": {
+        "slug": "blog2"
+      }
+    },
+    "63fd3979-71fa-5d47-9a9c-6cb1bb9e1e63": {
+      "id": "63fd3979-71fa-5d47-9a9c-6cb1bb9e1e63",
+      "children": [],
+      "parent": "b9395ec7-e4a3-5ca5-a7ff-c68e8170e1eb",
+      "internal": {
+        "content": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "323df303d7784999186877a55c33717e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "The emerging trends of",
+        "date": "2020-01-01"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+      "fileAbsolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog3.md",
+      "fields": {
+        "slug": "blog3"
+      }
+    },
+    "5f4dcab9-0b4b-56c5-a1fe-498df2820b49": {
+      "id": "5f4dcab9-0b4b-56c5-a1fe-498df2820b49",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "991d71e362ca620415c746ffc0587266",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/headphones.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/headphones.png",
+      "relativePath": "assets/headphones.png",
+      "extension": "png",
+      "size": 1583720,
+      "prettySize": "1.58 MB",
+      "modifiedTime": "2020-08-18T19:01:16.585Z",
+      "accessTime": "2020-08-18T19:01:24.105Z",
+      "changeTime": "2020-08-18T19:01:23.766Z",
+      "birthTime": "2020-08-18T19:01:16.562Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "headphones.png",
+      "ext": ".png",
+      "name": "headphones",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899316502,
+      "blocks": 3096,
+      "atimeMs": 1597777284105.0388,
+      "mtimeMs": 1597777276585.4573,
+      "ctimeMs": 1597777283766.261,
+      "birthtimeMs": 1597777276561.6453,
+      "atime": "2020-08-18T19:01:24.105Z",
+      "mtime": "2020-08-18T19:01:16.585Z",
+      "ctime": "2020-08-18T19:01:23.766Z",
+      "birthtime": "2020-08-18T19:01:16.562Z"
+    },
+    "6fbeb22f-2f7c-56ad-99f4-c67011fc3d2e": {
+      "id": "6fbeb22f-2f7c-56ad-99f4-c67011fc3d2e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "458ac70ac4724c13935e0bacc113e15c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/laptop.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/laptop.png",
+      "relativePath": "assets/laptop.png",
+      "extension": "png",
+      "size": 3336729,
+      "prettySize": "3.34 MB",
+      "modifiedTime": "2020-08-18T14:07:58.704Z",
+      "accessTime": "2020-08-18T17:44:53.866Z",
+      "changeTime": "2020-08-18T14:07:58.706Z",
+      "birthTime": "2020-08-18T14:07:58.668Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "laptop.png",
+      "ext": ".png",
+      "name": "laptop",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899162496,
+      "blocks": 6520,
+      "atimeMs": 1597772693865.7249,
+      "mtimeMs": 1597759678703.676,
+      "ctimeMs": 1597759678705.7566,
+      "birthtimeMs": 1597759678668.3108,
+      "atime": "2020-08-18T17:44:53.866Z",
+      "mtime": "2020-08-18T14:07:58.704Z",
+      "ctime": "2020-08-18T14:07:58.706Z",
+      "birthtime": "2020-08-18T14:07:58.668Z"
+    },
+    "20aa5050-4285-5b08-8bd6-3eee9377f2cd": {
+      "id": "20aa5050-4285-5b08-8bd6-3eee9377f2cd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bc623b7ab45bc0d1ad5c5373eb7f05ba",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/blogposts/blog-image.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/blogposts/blog-image.jpeg",
+      "relativePath": "blogposts/blog-image.jpeg",
+      "extension": "jpeg",
+      "size": 4140578,
+      "prettySize": "4.14 MB",
+      "modifiedTime": "2020-08-18T20:17:15.852Z",
+      "accessTime": "2020-08-18T20:18:00.653Z",
+      "changeTime": "2020-08-18T20:17:58.803Z",
+      "birthTime": "2020-08-18T20:17:15.785Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/blogposts",
+      "base": "blog-image.jpeg",
+      "ext": ".jpeg",
+      "name": "blog-image",
+      "relativeDirectory": "blogposts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899321981,
+      "blocks": 8088,
+      "atimeMs": 1597781880653.4675,
+      "mtimeMs": 1597781835852.4436,
+      "ctimeMs": 1597781878802.7615,
+      "birthtimeMs": 1597781835784.9688,
+      "atime": "2020-08-18T20:18:00.653Z",
+      "mtime": "2020-08-18T20:17:15.852Z",
+      "ctime": "2020-08-18T20:17:58.803Z",
+      "birthtime": "2020-08-18T20:17:15.785Z"
+    },
+    "76493b39-4ead-5670-9689-5d9d2ba8d463": {
+      "id": "76493b39-4ead-5670-9689-5d9d2ba8d463",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3143183e9b8d85f16477f7fe203d8fa8",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/iphone.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/harrymenen/Desktop/dipesh/src/assets/iphone.png",
+      "relativePath": "assets/iphone.png",
+      "extension": "png",
+      "size": 18023846,
+      "prettySize": "18 MB",
+      "modifiedTime": "2020-08-18T13:35:21.722Z",
+      "accessTime": "2020-08-18T17:44:53.865Z",
+      "changeTime": "2020-08-18T13:35:30.148Z",
+      "birthTime": "2020-08-18T13:35:21.462Z",
+      "root": "/",
+      "dir": "/Users/harrymenen/Desktop/dipesh/src/assets",
+      "base": "iphone.png",
+      "ext": ".png",
+      "name": "iphone",
+      "relativeDirectory": "assets",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12899160511,
+      "blocks": 35208,
+      "atimeMs": 1597772693865.0588,
+      "mtimeMs": 1597757721721.9653,
+      "ctimeMs": 1597757730148.3945,
+      "birthtimeMs": 1597757721462.1077,
+      "atime": "2020-08-18T17:44:53.865Z",
+      "mtime": "2020-08-18T13:35:21.722Z",
+      "ctime": "2020-08-18T13:35:30.148Z",
+      "birthtime": "2020-08-18T13:35:21.462Z"
+    },
+    "SitePage /blog/blog1": {
+      "jsonName": "blog-blog-1-f83",
+      "internalComponentName": "ComponentBlogBlog1",
+      "path": "/blog/blog1",
+      "component": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "blog1"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "id": "SitePage /blog/blog1",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3232f2f157c1fcfe513b4f23274f864b",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/blog2": {
+      "jsonName": "blog-blog-2-691",
+      "internalComponentName": "ComponentBlogBlog2",
+      "path": "/blog/blog2",
+      "component": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "blog2"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "id": "SitePage /blog/blog2",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "05787bc6f4a31db575e19833d1a10996",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/blog3": {
+      "jsonName": "blog-blog-3-193",
+      "internalComponentName": "ComponentBlogBlog3",
+      "path": "/blog/blog3",
+      "component": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "slug": "blog3"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "id": "SitePage /blog/blog3",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "611e91b480eca3b9101e547336c30222",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
@@ -620,36 +3287,70 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "051170691250e28107fa792163469aff"
+    "PLUGINS_HASH": "8308075746ead85c1c6133f8c90a7ae1"
   },
   "componentDataDependencies": {
-    "nodes": {},
-    "connections": {}
+    "nodes": {
+      "44e8b6b6-ab23-5129-9167-a07a5b7e24fd": [
+        "/blog/blog1"
+      ],
+      "9859c07d-3d8a-5a53-b5d7-7f2178a08d71": [
+        "/blog/blog2"
+      ],
+      "63fd3979-71fa-5d47-9a9c-6cb1bb9e1e63": [
+        "/blog/blog3"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "sq--src-components-blogcomponent-blogcomponent-js"
+      ]
+    }
   },
   "jsonDataPaths": {
-    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "contact-26a": "279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-blogcomponent-blogcomponent-js": 1892052410,
+    "blog-blog-2-691": "511/path---blog-blog-2-691-51b-4xMDMvhOTJKIT7ZdrYMOYFXf0k",
+    "blog-blog-1-f83": "610/path---blog-blog-1-f-83-c6d-qJrV8mGWWO1Ls6fsv2UAKTrvquY",
+    "blog-blog-3-193": "793/path---blog-blog-3-193-56b-nT7ZUznzeCDsDkYCihJT6WPsmI4"
   },
   "components": {
+    "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js": {
+      "componentPath": "/Users/harrymenen/Desktop/dipesh/src/templates/blog.js",
+      "query": "query usersHarrymenenDesktopDipeshSrcTemplatesBlogJs3530491270(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    frontmatter {\n      title\n      date\n    }\n    html\n  }\n}\n",
+      "pages": [
+        "/blog/blog1",
+        "/blog/blog2",
+        "/blog/blog3"
+      ],
+      "isInBootstrap": true
+    },
     "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js": {
-      "query": "",
       "componentPath": "/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js",
+      "query": "",
       "pages": [
         "/dev-404-page/"
       ],
       "isInBootstrap": true
     },
     "/Users/harrymenen/Desktop/dipesh/src/pages/index.js": {
-      "query": "",
       "componentPath": "/Users/harrymenen/Desktop/dipesh/src/pages/index.js",
+      "query": "",
       "pages": [
         "/"
       ],
       "isInBootstrap": true
     }
   },
-  "staticQueryComponents": {}
+  "staticQueryComponents": {
+    "sq--src-components-blogcomponent-blogcomponent-js": {
+      "name": "usersHarrymenenDesktopDipeshSrcComponentsBlogcomponentBlogcomponentJs1892052410",
+      "componentPath": "/Users/harrymenen/Desktop/dipesh/src/components/blogcomponent/blogcomponent.js",
+      "id": "sq--src-components-blogcomponent-blogcomponent-js",
+      "jsonName": "sq--src-components-blogcomponent-blogcomponent-js",
+      "query": "query usersHarrymenenDesktopDipeshSrcComponentsBlogcomponentBlogcomponentJs1892052410 {\n  allMarkdownRemark {\n    edges {\n      node {\n        excerpt(pruneLength: 80)\n        frontmatter {\n          title\n          date\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1892052410
+    }
+  }
 }
