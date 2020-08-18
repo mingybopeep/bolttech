@@ -1,0 +1,67 @@
+.highlights{
+    width: 90%;
+    margin: auto;
+
+    > div{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        
+        h3{
+            font-weight: 300;
+            font-size: 25px;
+        }
+
+        img{
+            width: 80%;
+            margin: 20px;
+            object-fit: cover;
+            box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.411);
+        }
+
+        .link{
+            color: #1CB0BA;
+            text-decoration: none;
+        }
+
+        p{
+            font-weight: 300;
+            line-height: 1.5em;
+        }
+        
+    }
+
+    .left{
+        img{
+            margin-left: 0; 
+        }
+    }
+
+    .right{
+        img{
+            margin-right: 0;
+            float: right;
+        }
+        .link{
+            float: right;
+        }
+    }
+}
+
+
+@media (min-height: 600px){
+    .highlights{
+        > div{
+            flex-direction: row;
+
+            >div{
+                flex: 1;
+                margin: auto 50px;
+            }
+        }
+
+        .right{
+            flex-direction: row-reverse;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.Calculator{
+    background: #1CB0BA;
+    margin: 10px; 
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+
+    h2{
+        text-align: center;
+        color: white;
+        font-weight: normal;
+    }
+
+    input{
+        width: 100%; 
+        padding: 10px;
+        background:#65C9D0;
+        border-radius: 5px;
+        border: 0;
+        margin: 5px auto;
+        color: white;
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    p{
+        color: white;
+        font-weight: lighter;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    span{
+        position: relative;
+        top: 35px;
+        left: 10px;
+        font-weight: bold !important;
+    }
+
+    button{
+        background: #E3D82F;
+        padding: 10px;
+        border: 0;
+        font-weight: bold;
+        width: 100px;
+        border-radius: 5px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .disc{
+        text-align: center;
+        color: black;
+    }
+}
+
+@media (min-width: 600px){
+    .Calculator{
+        display: flex;
+        position: relative;
+        padding-top: 100px;
+        justify-content: center;
+        min-height: 500px;
+
+        h2{
+            position: absolute;
+            top: 0; 
+            left: 50%;
+            transform: translate(-50%);
+            padding: 20px;     
+        }
+        > div{
+            margin: 10px;
+        }
+
+        button{
+            position: relative;
+            left: 50px;
+            right: 0; 
+            top: 15px; 
+            bottom: 0; 
+            height: 40px;
+        }
+
+        .output{
+            position: absolute; 
+            left: 50%;
+             transform: translateX(-50%);
+             top: 250px;
+             display: flex;
+             width: 600px;
+
+             h3{
+                 flex: 1;
+                 font-size: 205x;
+             }
+
+             p{
+                 flex: 2;
+                 position: relative;
+                 left: -20%;
+                 transform: translateY(100%);
+             }
+
+            }
+    }
+}

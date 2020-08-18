@@ -1,0 +1,24 @@
+.home_about{
+    padding: 10px;
+    > div {
+        margin: 30px auto;
+        > *{ margin: 10px;}
+    }
+
+    img{
+        width: 50px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 600px){
+    .home_about{
+        display: flex;
+        padding: 50px;
+
+        img{
+            height: 50px;
+            object-fit: contain;
+        }
+    }
+}
