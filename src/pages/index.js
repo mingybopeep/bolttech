@@ -26,7 +26,7 @@ export default function IndexPage() {
                 </div>
                 <div>
                     <img src={heartimg}/>
-                    <h2>Stay conenctd and build customer loyalty.</h2>
+                    <h2>Stay connected and build customer loyalty.</h2>
                     <p>
                         {`Your engagement with your customers shouldn’t end when you’ve delivered their product. Offering extended warranty keeps them connected with your business for longer, increasing return visits to your store`}
                     </p>

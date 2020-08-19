@@ -1,7 +1,13 @@
 @mixin desktop {
-    @media (min-width: 700px) {
+    @media (min-width: 600px) {
       @content;
     }
+  }
+
+  @mixin large {
+      @media (min-width: 1200px){
+          @content;
+      }
   }
 
 
@@ -16,7 +22,19 @@
         height: 700px;
 
         .stats{
-            display: inline-block !important;
+            position: relative;
+            display: block !important;
+            min-width: 350px;
+            
+            > div {
+                display: inline-flex !important;
+                flex-direction: row;
+                position: relative;
+
+                * {
+                    width: 50%;
+                }
+            }
         }
 
         .divone{
@@ -42,15 +60,29 @@
         }
     }
 
+    @include large {
+        > div {
+        h1{
+            font-size: 40px !important; 
+        }
+        p{
+            font-size: 18px !important;
+            line-height: 29px;
+        }
+    }
+    }
+
     h1{
         font-weight: 300;
         b{
             font-weight: bold;
         }
+        font-size: 30px;
     }
 
     p{
-        line-height: 29px;
+        line-height: 20px;
+        font-size: 13px;
     }
 
     button{
@@ -141,8 +173,7 @@
 
         .protect{
             background: white;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
-            width: 70%;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);            
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -194,9 +225,9 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 50vw;
+        width: 50%;
         height: 50vw; 
-        margin: auto;
+        float: left;
 
         h2{
             color: #1CB0BA;

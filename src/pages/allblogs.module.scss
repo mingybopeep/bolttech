@@ -14,11 +14,16 @@
             padding: 10px;
         }
 
+        p{
+            font-size: 12px;
+        }
+
+
         img{
             width: 100%;
-            height: 60vw;
+            height: 230px;
             object-fit: contain;
-            background: lightskyblue;
+            background: #1CB0BA;
         }
     }
 
@@ -27,8 +32,8 @@
         position: absolute;
         right: 0; 
         bottom: 0;
-        color: cyan;
         text-decoration: none;
+        color: #1CB0BA;
     }
 
     .blogpost{
@@ -45,6 +50,9 @@
         *{
             box-shadow: none;
         }
+
+        max-width: 1200px;
+        margin: auto;
 
         img{
             border-radius: 5px;
@@ -63,7 +71,7 @@
                 height: 550px;
                 box-shadow: none;
                 img{
-                    height: calc( 50vw - 120px);
+                    height: 400px;
                 }
             }
 
@@ -82,7 +90,8 @@
                     margin: 0;
                     box-shadow: none;
                     img{
-                        height: 50%;
+                        height: 50% !important;
+                        max-height: 300px !important;
                     }
                 }
             }

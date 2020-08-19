@@ -1,6 +1,7 @@
 ---
 title: "Blog post"
 date: "2020-01-01"
+posttype: "blog"
 ---
 
 ![man](./blog-image.jpeg)

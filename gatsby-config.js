@@ -1,5 +1,6 @@
 module.exports = {
     plugins: [
+      `gatsby-plugin-fontawesome-css`,
       `gatsby-plugin-material-ui`, 
       `gatsby-plugin-sass`, 
       {
