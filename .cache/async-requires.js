@@ -1,16 +1,13 @@
 // prefer default export if available
-const preferDefault = m => m && m.default || m
+const preferDefault = m => (m && m.default) || m
 
 exports.components = {
-<<<<<<< HEAD
-  "component---src-templates-blog-js": () => import("/Users/harrymenen/Desktop/dipesh/src/templates/blog.js" /* webpackChunkName: "component---src-templates-blog-js" */),
-  "component---cache-dev-404-page-js": () => import("/Users/harrymenen/Desktop/dipesh/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
-  "component---src-pages-index-js": () => import("/Users/harrymenen/Desktop/dipesh/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */)
-=======
-  "component---cache-dev-404-page-js": () => import("/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
-  "component---src-pages-index-js": () => import("/Users/dipeshwagle/Personal/Freelancing/boltech-up/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */)
->>>>>>> 5fe04c6d53fd85ff66686f2568fd973a9d1b84da
+  "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-allblogs-js": () => import("./../../../src/pages/allblogs.js" /* webpackChunkName: "component---src-pages-allblogs-js" */),
+  "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-faqs-js": () => import("./../../../src/pages/FAQS.js" /* webpackChunkName: "component---src-pages-faqs-js" */),
+  "component---src-pages-features-js": () => import("./../../../src/pages/features.js" /* webpackChunkName: "component---src-pages-features-js" */),
+  "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-templates-blog-js": () => import("./../../../src/templates/blog.js" /* webpackChunkName: "component---src-templates-blog-js" */)
 }
-
-exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/dipeshwagle/Personal/Freelancing/boltech-up/.cache/data.json")
 

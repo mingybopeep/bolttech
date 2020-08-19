@@ -5,12 +5,13 @@
 }
 
 header{
-    width: 100vw; 
+    max-width: 100vw; 
     display: flex; 
     flex-direction: row; 
     justify-content: space-between;
     padding: 20px 10px;
     background: white;
+    position: relative;
     img {
         height: 20px;
         margin: auto 0;
@@ -20,4 +21,50 @@ header{
         font-size: 30px !important;
     }
    
+}
+
+menu{
+    position: absolute; 
+    bottom: 0;
+    transform: translateY(100%);
+    right: 0; 
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+
+     * {
+        text-decoration: none;
+        padding: 20px; 
+        text-align: center;
+        font-size: 15px !important;
+    }
+}
+
+.desktopheader{
+    display: none;
+}
+
+@media (min-width: 600px){
+    .desktopheader{
+        position: absolute;
+        top: 0; 
+        right: 0%;
+        max-height: 70px;
+        height: 70px;
+        display: block;
+        z-index: 200;  
+        width: 80vw;
+        menu{
+            max-height: 100%;
+            transform: none;
+            width: 100%;
+            flex-direction: row;
+            *{
+                margin: auto;
+                font-size: 10px;
+            }
+        }
+    }
 }

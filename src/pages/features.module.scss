@@ -1,0 +1,62 @@
+.features{
+    padding: 10px;
+
+    h1{
+        font-weight: 300;
+        padding: 20px 0;
+    }
+
+    p{
+        font-weight: 300;
+    }
+
+    > div {
+        margin: 20px 0;
+
+        h2{
+            padding: 20px 0;
+            font-weight: 300;
+        }
+
+        img{
+            width: 100%; 
+            background: grey;
+            height: 50vw;
+            border-radius: 5px;
+        }
+    }
+    button{
+        background: #17124E;
+        padding: 10px; 
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        border-radius: 25px;
+        border: 0;
+        color: white;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 600px){
+    .features{
+        padding: 50px;
+
+        > div {
+            display: flex;
+            > div, > img{
+                flex: 1;
+                margin: 20px;
+                height: 25vw;
+                border-radius: 5px;
+            }
+        }
+
+        .right{
+            flex-direction: row-reverse;
+        }
+    }
+}
