@@ -2,6 +2,8 @@
 title: "Blog post"
 date: "2020-01-01"
 posttype: "blog"
+author: "Lorem Ipsum"
+
 ---
 
 ![man](./blog-image.jpeg)

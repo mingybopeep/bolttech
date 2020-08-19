@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
       options: {"plugins":[]},
     },{

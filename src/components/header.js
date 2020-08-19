@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
         <header >
-            <img src={logo} /> 
+            <img src={logo} className={classes.headerLogo}/> 
             <MenuIcon onClick={()=>setMenu(!menu)} />
             {content}
             <div className={classes.desktopheader}>

@@ -9,6 +9,20 @@
         width: 50px;
         object-fit: cover;
     }
+    
+    
+}
+
+.buttons{
+    width: 150px;
+    padding: 10px 20px;
+    color: white;
+     border: none;
+     background: #17124E;
+     border-radius: 25px;
+     margin: auto;
+     margin-left: 50vw;
+     transform: translateX(-50%)
 }
 
 @media (min-width: 600px){

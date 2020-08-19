@@ -47,6 +47,9 @@ menu{
 }
 
 @media (min-width: 600px){
+    .headerLogo{
+        padding-left: 50px;
+    }
     .desktopheader{
         position: absolute;
         top: 0; 
@@ -56,14 +59,19 @@ menu{
         display: block;
         z-index: 200;  
         width: 80vw;
+
+        
+
         menu{
             max-height: 100%;
             transform: none;
             width: 100%;
             flex-direction: row;
+            top: 0;
+            background: white;
             *{
                 margin: auto;
-                font-size: 10px;
+                font-size: 8px;
             }
         }
     }

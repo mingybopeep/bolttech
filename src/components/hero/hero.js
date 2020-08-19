@@ -1,37 +1,32 @@
 import React from 'react';
 import classes from './hero.module.scss';
-
-import laptop from '../../assets/laptop.png';
-import iphone from '../../assets/iphone.png';
 import mouse from '../../assets/mouse.png';
+import MySlider from '../carousel';
 
 
 export default function Hero() {
     return (
-        <div>
+        <div> 
             <div className={classes.hero}>
                 <div className={classes.divone}>
                     <div className={classes.carousel} >
-                        <div>
-                            <img src={iphone} />
-                            <img src={laptop} />
-                        </div>
+                    <MySlider />
                     </div>
                     <div className={classes.protect}>
                         <h4>Protect your device.</h4>
                         <div>
-                            <div>
+                            <div className={classes.grey}>
                                 <h5>1 Year</h5>
                                 <h6>Protection Plan</h6>
                                 <h4>$100</h4>
                             </div>
-                            <div>
+                            <div >
                                 <h5>2 Year</h5>
                                 <h6>Protection Plan</h6>
                                 <h4>$200</h4>
                                 <img src={mouse} />
                             </div>
-                            <div>
+                            <div className={classes.grey}>
                                 <h5>3 Year</h5>
                                 <h6>Protection Plan</h6>
                                 <h4>$300</h4>

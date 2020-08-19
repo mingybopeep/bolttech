@@ -62,7 +62,10 @@ export default function FAQs() {
                     return (
                         <div className={cls.join(' ')} onClick={() => setState({ ...state, q: index })} >
                             <h3>{question.q}</h3>
-                            {state.q == index ? <p>{question.a}</p> : null}
+                            {state.q == index ? <div className={classes.ans}>
+                                <h3>{question.q}</h3>
+                                <p>{question.a}</p>
+                            </div> : null}
                         </div>
                     )
                 })

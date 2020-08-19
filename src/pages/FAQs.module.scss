@@ -34,6 +34,16 @@
             top: 30px;
         }
     }
+
+    .desktop{
+        display: none;
+    }
+
+    .ans{
+        h3{
+            display: none;
+        }
+    }
 }
 
 @media (min-width: 600px) {
@@ -54,14 +64,19 @@
        .question{
            width: 300px;
            padding: 30px;
-           p{
+           .ans{
                position: absolute;
                top: 100px;
                left: 50vw;
                width: calc( 50vw - 70px ); 
                padding: 20px;
+
+               h3{
+                   display: block;
+               }
            }
        }
+
 
        .open{
         background: #1CB0BA;

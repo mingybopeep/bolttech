@@ -11,6 +11,7 @@ query($slug: String!) {
         frontmatter {
             title
             date
+            author
         }
         html
     }
@@ -23,7 +24,11 @@ export default function Blog(props) {
             <section className={classes.blog} >
                 <div>
                     <img src='' />
-                    <span> {props.data.markdownRemark.frontmatter.date}</span>
+                    <span> 
+                        {props.data.markdownRemark.frontmatter.date}
+                         <br/>
+                         {props.data.markdownRemark.frontmatter.author}
+                    </span>
                     <h1>{props.data.markdownRemark.frontmatter.title}</h1>
                 </div>
                 <div className={classes.md} dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html}} /> 

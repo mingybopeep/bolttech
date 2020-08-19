@@ -21,6 +21,7 @@
     "gatsby-plugin-fontawesome-css": "^1.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-material-ui": "^2.1.10",
+    "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.27",
     "gatsby-remark-images": "^3.3.25",
@@ -29,7 +30,10 @@
     "gatsby-transformer-remark": "^2.3.8",
     "node-sass": "^4.14.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.27.9",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

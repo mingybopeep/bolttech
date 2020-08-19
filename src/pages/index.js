@@ -40,7 +40,9 @@ export default function IndexPage() {
                 </div>
            </div>
            <Calculator />
+           <button className={classes.buttons}>Sign me up</button>
            <Highlights />
+           <button className={classes.buttons}>Sign me up</button>
            <BlogComponent />
         </Layout>
     )

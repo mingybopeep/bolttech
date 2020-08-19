@@ -46,16 +46,22 @@
          > div{
              flex: 1;
              margin: 50px;
+             position: relative;
+
              .carousel{
-                 height: 100% !important;
-                }
+                 max-width: calc( 50vw - 40px - 50px );
+                 background: rgb(0, 255, 64);
+            }
         }
 
         .protect{
             transform: translate(-50%, -20px) !important;
             min-height: 180px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 400px;
             div {
-                height: 120px;
+                height: 100px;
             }
         }
     }
@@ -138,38 +144,9 @@
             height: 230px;
             background: #1CB0BA;
             border-radius: 5px;
-            overflow-x: hidden;
-
-            @keyframes carousel {
-                0% {
-                    transform: none;
-                } 
-                33% {
-                    transform: none;
-                }
-                66% {
-                    transform: translate(-50%);
-                }
-                to {
-                    transform: translate(-50%);
-                }
-            }
-
-
-            > div {
-                display: flex; 
-                height: 100%;
-                width: 200%;
-                animation: carousel 4s alternate infinite;
-
-                img{
-                    height: 100%;
-                    width: 50%;
-                    object-fit: contain;
-                    padding: 20px;
-                }
-            }
         }
+
+        
 
         .protect{
             background: white;
@@ -188,7 +165,7 @@
 
              > div{ 
                  display: flex;
-                justify-content: space-evenly;
+                justify-content: center;
 
                 div{
                     border: 1px solid #17124E;
@@ -239,3 +216,9 @@
     }
 }
 
+
+
+.grey{
+    *{color: grey !important;}
+     border: 1px solid grey !important;
+}
