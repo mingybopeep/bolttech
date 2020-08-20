@@ -18,6 +18,8 @@ export default function Highlights() {
                 </div>
                 <div>
                     <img src={screenshot} />
+                    <div className={classes.decoration1} />
+                    <div className={classes.decoration2} />
                 </div>
             </div>
 
@@ -31,6 +33,8 @@ export default function Highlights() {
                 </div>
                 <div>
                     <img src={screenshot} />
+                    <div className={classes.decoration3} />
+                    <div className={classes.decoration4} />
                 </div>
             </div>
 
@@ -44,6 +48,8 @@ export default function Highlights() {
                 </div>
                 <div>
                     <img src={screenshot} />
+                    <div className={classes.decoration1} />
+                    <div className={classes.decoration2} />
                 </div>
             </div>
 

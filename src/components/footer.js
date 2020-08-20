@@ -15,7 +15,7 @@ import { Link } from 'gatsby';
 export default function Footer() {
     return (
         <footer className={classes.footer}>
-            <h3>seamlessly integrates with</h3>
+            <h3>seamlessly integrating with</h3>
             <div className={classes.logos}>
                 <img src={shopify} />
                 <img src={bigcom} />

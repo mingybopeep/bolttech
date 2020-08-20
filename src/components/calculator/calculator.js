@@ -42,12 +42,16 @@ export default function Calculator() {
 
             <button>Go</button>
 
+            <h6 className={classes.disclaimer}> 
+                *extended warranty 12 monhts
+            </h6>
+
             <div className={classes.output}> 
             <h3>{`$  ${state.retail}`}</h3>
             <p className={classes.disc}>Estimated retail price*</p>
 
             <h3>{`$  ${state.estimated}`}</h3>
-            <p className={classes.disc}>Estimated revenue share*</p>
+            <p className={[classes.disc, classes.revenue].join(" ")}>Estimated revenue share*</p>
             </div>
         </section>
     )

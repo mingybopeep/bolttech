@@ -26,7 +26,7 @@
     }
    
     input, textarea{
-        padding: 10px;
+        padding: 15px;
         border-radius: 5px;
         border: 1px solid black;
     }
@@ -107,9 +107,15 @@
    }
 }
 
-@media (min-width: 600px){
+@media (min-width: 800px){
     .contact{
         max-width: 600px;
         margin: auto;
+
+        > div{
+            width: 600px;
+        }
     }
+
+   
 }

@@ -1,5 +1,5 @@
 @mixin desktop {
-    @media (min-width: 600px) {
+    @media (min-width: 800px) {
       @content;
     }
   }
@@ -55,13 +55,42 @@
         }
 
         .protect{
-            transform: translate(-50%, -20px) !important;
-            min-height: 180px;
+            transform: translate(-50%, -58px) !important;
+            height: 157px;
             padding-left: 30px;
             padding-right: 30px;
-            width: 400px;
-            div {
-                height: 100px;
+            width: 281px;
+            >h4{
+                font-size: 14px;
+            }
+            > div > div {
+                height: 71px;
+                width: 62px;
+                position: relative;
+                h5{
+                    margin-bottom: 2px;
+                    position: absolute;
+                    width: 100%;
+                     top: 4px; 
+                     left: 50%; 
+                     transform: translateX(-50%);
+                }
+                h6{
+                    font-size: 8px;
+                    width: 100%;
+                    padding: 0;
+                    position: absolute;
+                     top: 18px; 
+                     left: 50%; 
+                     transform: translateX(-50%);
+                }
+                h4{
+                    font-size: 16px !important;
+                    position: absolute;
+                     bottom: 2px; 
+                     left: 50%; 
+                     transform: translateX(-50%);
+                }
             }
         }
     }
@@ -83,11 +112,12 @@
         b{
             font-weight: bold;
         }
-        font-size: 30px;
+        font-size: 32px;
+        line-height: 44.8px;
     }
 
     p{
-        line-height: 20px;
+        line-height: 36px;
         font-size: 13px;
     }
 
@@ -100,17 +130,19 @@
         width: 150px;
         margin-top: 20px;
         border: 0;
+        font-size: 20px;
     }
 
     .stats{
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 80%; 
+        height: 207px;
+        width: 526px; 
         margin: auto;
         margin-bottom: 0px;
         background: white; 
-        box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.781);
+        box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.3);
         border-radius: 5px;
         padding: 20px;
         display: none;
@@ -126,8 +158,11 @@
                 margin: auto;
             }
             p{
-                font-size: 12px;
+                font-size: 14px !important;
             }
+        h2{
+          font-size: 40px !important;  
+        }
         }
     }
 

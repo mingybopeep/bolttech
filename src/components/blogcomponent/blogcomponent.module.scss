@@ -11,7 +11,7 @@
              height: 110vw;
              border-radius: 5px;
              margin: 5px;
-             box-shadow: 5px 5px 15px grey;
+             box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.219);
             padding-bottom: 20px;
             position: relative;
              img{
@@ -24,6 +24,11 @@
                  padding: 10px;
              }
 
+             h3{
+                 font-size: 20px;
+
+             }
+
              .link{
                  color: #1CB0BA;
                  text-decoration: none;
@@ -34,28 +39,53 @@
              }
          }
      }
+
+     .link2{
+        display: none;
+     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 800px){
 
     .BlogComponent{
         padding: 50px;
         overflow: hidden;
+        position: relative;
+
+        h2{
+            margin-bottom: 20px;
+        }
+
+        .link2{
+            display: inline-block;
+            padding: 20px; 
+            position: absolute;
+            left: 100vw; 
+            top: 30px;
+            transform: translateX(-100%);
+            width: 200px;
+            color: #1CB0BA;
+        }
 
         > div {
             width: 100%;
+            justify-content: center;
         }
 
         .blogpost{
             display: flex; 
             flex-direction: row;
-            height: 300px;
-            width: 50%; 
-            padding: 0; 
+            height: calc( ((100vw - 100px -40px) / 2) / 1.5 );
+            flex: none;
+            width: calc( (100vw - 100px -40px) / 2);
+            padding: 0 !important; 
+            margin: 10px;
             > div {
                 display: flex; 
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-start;
+                margin: 0; 
+                padding: 10% 5%;
             }
             img{
                 width: 50%;
@@ -66,5 +96,12 @@
             display: none;
             background: red;
         }
+
+        .link{
+            padding: 36px !important;
+             margin: 0 !important; 
+
+        }
+
     }
 }

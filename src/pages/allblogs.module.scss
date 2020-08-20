@@ -44,10 +44,12 @@
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .allblogs{
         padding: 50px;
         background: white;
+        display: flex;
+
         .nonfeatured{
             margin: 0; 
             padding: 0;

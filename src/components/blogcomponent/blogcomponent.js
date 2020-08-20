@@ -5,7 +5,7 @@ import classes from './blogcomponent.module.scss';
 
 export default function BlogComponent() {
 
-    const data = useStaticQuery(graphql`
+    let data = useStaticQuery(graphql`
         query{
             allMarkdownRemark {
                 edges {
@@ -14,6 +14,7 @@ export default function BlogComponent() {
                         frontmatter {
                             title
                             date
+                            posttype
                         }
                         fields {
                             slug
@@ -22,12 +23,15 @@ export default function BlogComponent() {
                 }
             }
         }
-    `);
-
+    `)
+    
+    data.allMarkdownRemark.edges = data.allMarkdownRemark.edges.filter(post=>{
+        return post.node.frontmatter.posttype != "auxpage";
+    });
 
     return (
         <section className={classes.BlogComponent} >
-            <h2>Interesting Reads</h2>
+            <h2>Interesting Reads</h2> <Link  className={classes.link2} to='/blogs'>{`See all Blogs >`}</Link>
             <div>
                 {data.allMarkdownRemark.edges.slice(0,3).map((item, index) => {
                     let clist = [classes.blogpost];

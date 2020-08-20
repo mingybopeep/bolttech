@@ -46,7 +46,7 @@ menu{
     display: none;
 }
 
-@media (min-width: 600px){
+@media (min-width: 800px){
     .headerLogo{
         padding-left: 50px;
     }
@@ -59,9 +59,9 @@ menu{
         display: block;
         z-index: 200;  
         width: 80vw;
+        * {font-size: 10px}
 
         
-
         menu{
             max-height: 100%;
             transform: none;
@@ -69,9 +69,11 @@ menu{
             flex-direction: row;
             top: 0;
             background: white;
+            justify-content: flex-end;
             *{
-                margin: auto;
-                font-size: 8px;
+                margin: auto 15px;
+                padding-left: 0;
+                padding-right: 0;
             }
         }
     }

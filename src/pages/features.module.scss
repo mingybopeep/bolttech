@@ -45,8 +45,28 @@
     .features{
         padding: 50px;
 
+        h6{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 46px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 20px;
+            line-height: 29px;
+        }
+
         > div {
             display: flex;
+
+            p{
+                font-size: 16px;
+            }
             > div, > img{
                 flex: 1;
                 margin: 20px;
