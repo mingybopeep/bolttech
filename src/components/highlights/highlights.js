@@ -29,7 +29,7 @@ export default function Highlights() {
                     <p>
                         Whether you’re using Shopify, Magento, BigCommerce, SFCC or any other eCommerce platform, Device Protect provides frictionless integreations so you can easily plug-and-play
                     </p>
-                    <Link to='/' className={classes.link}>Read docs</Link>
+                    <Link to='/' className={classes.link}>See documentation</Link>
                 </div>
                 <div>
                     <img src={screenshot} />
@@ -44,7 +44,7 @@ export default function Highlights() {
                     <p>
                         Whether you’re using Shopify, Magento, BigCommerce, SFCC or any other eCommerce platform, Device Protect provides frictionless integreations so you can easily plug-and-play
                     </p>
-                    <Link to='/' className={classes.link}>Read docs</Link>
+                    <Link to='/' className={classes.link}>See features</Link>
                 </div>
                 <div>
                     <img src={screenshot} />

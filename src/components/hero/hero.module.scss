@@ -10,21 +10,35 @@
       }
   }
 
-
 .hero {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    background: #F3F3F6;
+    background-position-y: -50px;
+    padding-top: 60px;
+    
 
     @include desktop{
         flex-direction: row-reverse;
         padding-top: 60px;
         height: 700px;
+        position: relative;
+    top: -150px;
+
+        > div {
+            transform: translateY(150px);
+            p{
+                line-height: 16px;
+            }
+        }
 
         .stats{
             position: relative;
             display: block !important;
             min-width: 350px;
+            transform: scale(0.75) translate(-100px, 12.5%);
+
             
             > div {
                 display: inline-flex !important;
@@ -103,6 +117,10 @@
         p{
             font-size: 18px !important;
             line-height: 29px;
+        }
+
+        .stats{
+            transform: none;
         }
     }
     }

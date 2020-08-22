@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import laptop from '../assets/laptop.png';
 import iphone from '../assets/iphone.png';
+import ipad from '../assets/ipad1.png';
+
 import classes from './carousel.module.scss';
 
 import "slick-carousel/slick/slick.css";
@@ -22,6 +24,8 @@ class SimpleSlider extends React.Component {
         <Slider {...settings}>
             <img src={iphone} /> 
             <img src={laptop} /> 
+            <img src={ipad} /> 
+
         </Slider>
       );
     }

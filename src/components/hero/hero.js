@@ -36,15 +36,15 @@ export default function Hero() {
                 </div>
                 <div>
                     <h1>
-                        Bolt on extended warranties that <b> unlock additional revenue. </b>
+                        Bolt on extended warranties that <b> unlock additional revenue </b>
                     </h1>
                     <p>
-                        Offering extended warranty to your customers has never been easier. Device Protect seamlessly integrates into your purchase flow, adding value to the customer experience and to your bottom line
+                        Offering extended warranty to your customers has never been easier. Device Protect seamlessly integrates into your purchase flow, adding value to the customer experience and to your bottom line.
                 </p>
                     <button>Watch Video</button>
                     <div className={classes.stats} >
                         <div>
-                            <h2>5.5m</h2>
+                            <h2>7.7m</h2>
                             <p>Customers Worldwide</p>
                         </div>
                         <div>
@@ -64,7 +64,7 @@ export default function Hero() {
             </div>
             <div className={classes.mobileStats}>
                 <div>
-                    <h2>5.5m</h2>
+                    <h2>7.7m</h2>
                     <p>Customers Worldwide</p>
                 </div>
                 <div>

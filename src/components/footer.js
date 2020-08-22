@@ -3,6 +3,8 @@ import shopify from '../assets/shopify.png';
 import bigcom from '../assets/bigcom.png';
 import magneto from '../assets/magneto.png';
 import woo from '../assets/woo.png';
+import node from '../assets/node.png';
+import php from '../assets/php.svg';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -17,9 +19,8 @@ export default function Footer() {
         <footer className={classes.footer}>
             <h3>seamlessly integrating with</h3>
             <div className={classes.logos}>
-                <img src={shopify} />
-                <img src={bigcom} />
-                <img src={woo} />
+            <img src={node} />
+            <img src={php} />
                 <img src={magneto} />
             </div>
 

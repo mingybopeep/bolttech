@@ -10,8 +10,8 @@ header{
     flex-direction: row; 
     justify-content: space-between;
     padding: 20px 10px;
-    background: white;
     position: relative;
+    background: #F3F3F6;
     img {
         height: 20px;
         margin: auto 0;
@@ -29,10 +29,10 @@ menu{
     transform: translateY(100%);
     right: 0; 
     width: 100vw;
-    background: white;
     display: flex;
     flex-direction: column;
     z-index: 200;
+    background: #F3F3F6;
 
      * {
         text-decoration: none;
@@ -47,19 +47,27 @@ menu{
 }
 
 @media (min-width: 800px){
+
+    header{
+        min-height: 70px;
+    }
+    .menuIcon{
+        display: none !important;
+    }
     .headerLogo{
         padding-left: 50px;
+        z-index: 20;
     }
     .desktopheader{
         position: absolute;
         top: 0; 
         right: 0%;
-        max-height: 70px;
+        height: 70px;
         height: 70px;
         display: block;
         z-index: 200;  
         width: 80vw;
-        * {font-size: 10px}
+        * {font-size: 20px}
 
         
         menu{
@@ -68,10 +76,9 @@ menu{
             width: 100%;
             flex-direction: row;
             top: 0;
-            background: white;
             justify-content: flex-end;
             *{
-                margin: auto 15px;
+                margin: auto 25px;
                 padding-left: 0;
                 padding-right: 0;
             }

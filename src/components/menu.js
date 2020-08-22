@@ -5,7 +5,14 @@ import classes from './menu.module.scss';
 export default function Menu(props){
     return(
         <menu>
-            <Link to='/features'>Features</Link>
+            <Link className={classes.features} to='/features'>
+                Features 
+                <div>
+                <Link to='/merchant'>Merchant Portal</Link>
+                <Link to='/device'> Device Protection</Link>
+                </div>
+            </Link>
+
             <Link to='/FAQS'>FAQS</Link>
             <Link to='/allblogs'>Blog</Link>
             <Link to='/'>Documentation</Link>

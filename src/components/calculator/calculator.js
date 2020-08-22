@@ -8,7 +8,6 @@ export default function Calculator() {
         num: 500,
         sales: 1000,
         percentage: 10,
-        retail: 100,
         estimated: 10000
     }
 
@@ -17,6 +16,10 @@ export default function Calculator() {
     const changeState = (e, field) => {
         let myState = { ...state }
         myState[field] = e.target.value;
+
+        let rev = (myState.sales/myState.num)*0.04*myState.percentage*(0.8*myState.num)
+        myState.estimated = rev.toFixed(0)/10;
+        
         setState(myState);
     }
 
@@ -47,8 +50,6 @@ export default function Calculator() {
             </h6>
 
             <div className={classes.output}> 
-            <h3>{`$  ${state.retail}`}</h3>
-            <p className={classes.disc}>Estimated retail price*</p>
 
             <h3>{`$  ${state.estimated}`}</h3>
             <p className={[classes.disc, classes.revenue].join(" ")}>Estimated revenue share*</p>
