@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/harrymenen/Documents/Web Development Projects/dipesh/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
+      plugin: require('/Users/harrymenen/Documents/Web Development Projects/dipesh/node_modules/gatsby-plugin-fontawesome-css/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/harrymenen/Desktop/dipesh/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
+      plugin: require('/Users/harrymenen/Documents/Web Development Projects/dipesh/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

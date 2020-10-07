@@ -2,6 +2,11 @@ import React from 'react';
 import Layout from '../components/layout';
 import classes from './features.module.scss';
 
+import image1 from '../assets/undraw.png';
+import image2 from '../assets/undraw2.png';
+import image3 from '../assets/undraw3.png';
+
+
 export default function Features(){
     return(
         <Layout>
@@ -10,7 +15,7 @@ export default function Features(){
                 <h1>Merchant portal with <b>cutting edge features.</b></h1>
                 <p>bolttech merchant portal empowers businesses to offer protection services to their customers. It requires minimal IT investment with easy plug & play installation with your website or e-store. We offer seamless and fast integration on tech stack such as shopify, magento, php etc.It is a one-stop-shop protection service solution that will enable your business to generate additional revenue, provide value-added services and offerings to your customer and enhance their shopping experience.</p>
                 <div className={classes.left}>
-                    <img src=''/>
+                    <img src={image1}/>
                     <div>
                         <h2><b>Customer service,</b>Technical and Pricing support.</h2>
                         <p>
@@ -19,7 +24,7 @@ export default function Features(){
                     </div>
                 </div>
                 <div className={classes.right}>
-                    <img src=''/>
+                    <img src={image2}/>
                     <div>
                         <h2><b>Customer service,</b>Technical and Pricing support.</h2>
                         <p>
@@ -28,7 +33,7 @@ export default function Features(){
                     </div>
                 </div>
                 <div className={classes.left}>
-                    <img src=''/>
+                    <img src={image3}/>
                     <div>
                         <h2><b>Customer service,</b> Technical and Pricing support.</h2>
                         <p>
